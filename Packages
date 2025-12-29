@@ -116,6 +116,23 @@ Name: Touch-Viz
 
 Package: com.Talkatonehook
 Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: mull
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.7000), firmware (>= 14.0)
+Filename: ./debs/com.talkatonehook_1.0_iphoneos-arm64e.deb
+Size: 3886
+MD5sum: aa0d4ff6b4d20d2c8346dd47a7235fbe
+SHA1: 245d9d93b799a53f3b59248821f6478b3e5dbf68
+SHA256: 8af1bf2dbe2945674e04ced39152970dfacfe6e5ce6abfda9039b15d4342751c
+Section: 去广告
+Description: 无广体验Talkatone，激活设置页面的“Remove Ads”，去除底部的飘浮广告，通话记录和信息顶部飘浮的官方广告没去除，点右上角“X”关闭。
+Author: null
+Icon: https://s1.imagehub.cc/images/2025/06/15/57b69ab9edb5fe7970bc3d47268389fc.png
+Name: TalkatoneNoAds
+
+Package: com.Talkatonehook
+Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: mull
 Depends: mobilesubstrate (>= 0.9.7000), firmware (>= 14.0)
