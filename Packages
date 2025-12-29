@@ -878,24 +878,6 @@ Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 11+. This v
 Author: TIGI Software
 Name: Filza File Manager 64-bit
 
-Package: com.wkk.filzacrack
-Version: 1.1-9
-Architecture: iphoneos-arm64e
-Maintainer: Nets
-Installed-Size: 120
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./debs/com.wkk.filzacrack_1.1-9_iphoneos-arm64e.deb
-Size: 39714
-MD5sum: f92cfd12b06818736287b6125151e664
-SHA1: 95ed36ec759ece16d2024afe35b082162ee9bab6
-SHA256: 9a156f4e44d05ef9b25e165b993de461fadc1f429031c984c1cd2d6700538e74
-Section: Tweaks
-Description: Filza Crack
-Author: Netskao
-Icon: https://s1.imagehub.cc/images/2025/04/02/754b2bb601bad95dca5cb982e7d926af.jpeg
-Name: Filza Crack
-
 Package: com.wkk.manager
 Version: 1.3.6
 Architecture: iphoneos-arm64e
@@ -1018,40 +1000,6 @@ Section: Tweaks
 Description: 去除广告 加速开屏时间
 Author: ddd996 <krylov0@outlook.com>
 Name: 酷安 NoAds
-
-Package: com.yourname.backgroundkeepalive
-Version: 1.0.0-1+debug
-Architecture: iphoneos-arm64e
-Maintainer: YourName <your.email@example.com>
-Installed-Size: 504
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
-Suggests: libhooker | substitute
-Conflicts: com.rpetrich.backgrounder, com.jevinskie.backgroundmanager
-Filename: ./debs/提高应用留存率-适配隐根-1.01.deb
-Size: 54610
-MD5sum: a1d3c00579f64ed0040729b29c39280e
-SHA1: d3ea16a45bd6861e15c5c2fe4ada20954d35b3ad
-SHA256: befd6e07fd57f879954adb9552ebef14e332d8caf29f6a3ddc23b35d973c99f3
-Section: Tweaks
-Priority: optional
-Homepage: https://github.com/yourname/backgroundkeepalive
-Description: 基于iOS墓碑机制的后台保活插件
- 这是一个专为Dopamine越狱环境设计的后台保活插件，通过Hook iOS系统的墓碑机制来提高应用的后台留存率。
- .
- 主要功能：
- • 拦截应用挂起和终止操作
- • 智能内存管理和优化
- • 自动监控和重启机制
- • 适配RootHide隐根越狱环境
- • 长时间稳定运行，自动故障恢复
- .
- 支持iOS 14.0及以上版本，兼容arm64和arm64e架构。
-Tag: purpose::extension, compatible::ios14, compatible::ios15, compatible::ios16, compatible::ios17
-Author: YourName <your.email@example.com>
-Depiction: https://yourrepo.com/depictions/backgroundkeepalive
-Name: BackgroundKeepAlive
-Sileodepiction: https://yourrepo.com/sileo/backgroundkeepalive
 
 Package: com.zqbb.savephotos
 Version: 1.1-1
@@ -1287,26 +1235,6 @@ Depiction: https://chariz.com/get/cephei
 Icon: https://img.chariz.cloud/icon/cephei/icon@3x.png
 Name: Cephei Tweak Support
 Support: https://hashbang.productions/support/
-
-Package: xz-utils
-Version: 5.4.4
-Architecture: iphoneos-arm64
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 900
-Depends: libiosexec1 (>= 1.3.1), liblzma5 (>= 5.4.4), libintl8
-Conflicts: xz (<< 1:0), lzma (<< 3:0)
-Replaces: xz, lzma
-Provides: xz (= 1:0), lzma (= 3:0)
-Filename: ./debs/xz-utils.5.4.4.deb
-Size: 177924
-MD5sum: a3fbc862447b25aa637530e33ba3afac
-SHA1: 96694d1d7807d7427eba3028ba491cd867cb6bd9
-SHA256: 212af811eaebd3844d62a6e64d701162a11b7f99026ed0387b58bc6a3fc900f3
-Section: Archiving
-Priority: standard
-Homepage: https://tukaani.org/xz/
-Description: XZ-format compression utilities
-Name: xz-utils
 
 Package: zp.dopamine.blacklist
 Version: 0.0.1-1
