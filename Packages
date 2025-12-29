@@ -615,6 +615,26 @@ Name: p7zip
   - Unpacking only: APM, ARJ, CAB, CHM, CPIO, CramFS, DEB, DMG, FAT,
   - Packing / unpacking: 7z, ZIP, GZIP, BZIP2, XZ and TAR
 
+Package: preferenceloader.top
+Version: 2.2.7
+Architecture: iphoneos-arm64
+Maintainer: ProcursusTeam <support@procurs.us>
+Installed-Size: 148
+Depends: mobilesubstrate
+Conflicts: preferenceloader, preferenceloader.rootless, preferenceloader.rootless.top
+Replaces: preferenceloader, preferenceloader.rootless, preferenceloader.rootless.top
+Provides: preferenceloader (= 2.2.6)
+Filename: ./debs/preferenceloader.top_2.2.7_iphoneos-arm64.deb
+Size: 12976
+MD5sum: acef277f3eef41ca364f73f4006ace7c
+SHA1: c631258c2011ef98610159d9d836cd404a0ffc40
+SHA256: 7be68c83086fafaa71592d9bbfce1ab774b7e2a0296959774b555a2e0abf9bc2
+Section: Tweaks
+Description: load preferences in style
+Author: Dhinak G <dhinak@dhinak.net>
+Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
+Name: PreferenceLoader (Top)
+
 Package: unrar
 Version: 7.0.7
 Architecture: iphoneos-arm64
