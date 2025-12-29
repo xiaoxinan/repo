@@ -1089,24 +1089,6 @@ Author: Evelyn
 Icon: https://ellekit.space/logos/logo.png
 Name: ElleKit
 
-Package: gzip
-Version: 1.13
-Architecture: iphoneos-arm64
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 324
-Depends: libiosexec1 (>= 1.3.1)
-Filename: ./debs/gzip.1.13.deb
-Size: 96552
-MD5sum: 93b8ea3eba74e419ab26fef288aaf427
-SHA1: fd61e43f529098c0080f28c0325896b3283033ec
-SHA256: 33f90bab6c36c0521784a8527f1391d3d6dc8ddf628b522f28bbb2b070378ab4
-Section: Archiving
-Priority: standard
-Multi-Arch: foreign
-Homepage: http://www.gzip.org/
-Description: GNU compression utilities
-Name: gzip
-
 Package: me.nixuge.networkmanager
 Version: 1.4.3
 Architecture: iphoneos-arm64
@@ -1231,25 +1213,6 @@ Description: For dual-SIM cards, the selected cellular network can be switched q
 Author: Netskao
 Name: CCSwitchData-Rootless
 
-Package: p7zip
-Version: 17.04
-Architecture: iphoneos-arm64
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 9764
-Depends: libiosexec1 (>= 1.2.2)
-Filename: ./debs/p7zip.17.04.deb
-Size: 2153216
-MD5sum: 746740cf860705c6c28c91b674c4ef55
-SHA1: 3794dca6646f06eff5843021cf4635d182b9a4a3
-SHA256: d212371309831bbc4d58b35d0806981e2f568cd6c6bca6d4255548149177cb08
-Section: Archiving
-Priority: optional
-Multi-Arch: foreign
-Description: 7z and 7za file archivers with high compression ratio
-Name: p7zip
-  - Unpacking only: APM, ARJ, CAB, CHM, CPIO, CramFS, DEB, DMG, FAT,
-  - Packing / unpacking: 7z, ZIP, GZIP, BZIP2, XZ and TAR
-
 Package: preferenceloader.top
 Version: 2.2.7
 Architecture: iphoneos-arm64
@@ -1305,40 +1268,6 @@ Author: Domo <domo@rambler.ru>
 Icon: https://siieo.github.io/sileodepictions/CocoaTop/icon.png
 Name: CocoaTop64
 
-Package: unrar
-Version: 7.0.7
-Architecture: iphoneos-arm64
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 464
-Depends: libiosexec1 (>= 1.3.1)
-Filename: ./debs/unrar.7.0.7.deb
-Size: 149424
-MD5sum: fff17e69c936b6c87155ed55360cb0ae
-SHA1: e9e33e8d8860041fa0c90e7588d578ee546757b2
-SHA256: a73ed6e747184f94b1e4d5373b69d7ebfdf16177e8ea8776efb08ed9fbf377de
-Section: Archiving
-Priority: optional
-Multi-Arch: foreign
-Homepage: http://www.rarlab.com/rar_add.htm
-Description: Unarchiver for .rar files (non-free version)
-Name: unrar
-
-Package: unzip
-Version: 6.0-28
-Architecture: iphoneos-arm64
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 620
-Depends: libiosexec1 (>= 1.3.1)
-Filename: ./debs/unzip.6.0-28.deb
-Size: 125720
-MD5sum: 4f83a96cdb6a53a66811c216c3fb964a
-SHA1: 9af29a54c5a2d88765d5a052854f2052e569dbf0
-SHA256: 98e9097c97ecf328866dd703afe41f4a4e06dea5ce4161b8ba8441f24ee26120
-Section: Archiving
-Priority: important
-Description: de-compesses files in zip format
-Name: unzip
-
 Package: ws.hbang.common
 Version: 2.0
 Architecture: iphoneos-arm64
@@ -1378,23 +1307,6 @@ Priority: standard
 Homepage: https://tukaani.org/xz/
 Description: XZ-format compression utilities
 Name: xz-utils
-
-Package: zip
-Version: 3.0-12
-Architecture: iphoneos-arm64
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 592
-Depends: libiosexec1 (>= 1.2.2)
-Filename: ./debs/zip.3.0-12.deb
-Size: 2487940
-MD5sum: bae965306fc93c67937abfb62fb8bfaa
-SHA1: 76d3c0cd2a49d213ed5857904cbf0747561b01bc
-SHA256: 4897810d0366b601c64f5aaf2240f34c6c2e2bbb4bd93e9ed7d3243d0f169c41
-Section: Archiving
-Priority: important
-Multi-Arch: foreign
-Description: standard Windows compression tool
-Name: zip
 
 Package: zp.dopamine.blacklist
 Version: 0.0.1-1
