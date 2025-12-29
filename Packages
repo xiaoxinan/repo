@@ -64,6 +64,23 @@ Author: 0xkuj
 Icon: https://sini921.github.io/repo/sileodepiction/icon/safarix.png
 Name: SafariX
 
+Package: com.25mao.leftpan.roothide
+Version: 1.0-6
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.4)
+Filename: ./debs/com.25mao.leftpan.roothide_1.0-6_iphoneos-arm64e.deb
+Size: 131150
+MD5sum: eb5e697647a6c1f0246c833d539f9ec8
+SHA1: 5f90f71629edb21d20b73a9133c156b5a6cd64a6
+SHA256: d6feab4cf80106dcbe14ca22cc3a5ba393a635f68e723810b69f25f05ea00f19
+Section: Rootless
+Priority: optional
+Description: 左滑返回上一页面
+Author: Mao
+Name: 左滑返回(Roothide)
+
 Package: com.25mao.leftpan.rootless
 Version: 1.0-6
 Architecture: iphoneos-arm64
