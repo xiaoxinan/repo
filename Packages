@@ -81,22 +81,6 @@ Description: 左滑返回上一页面
 Author: Mao
 Name: 左滑返回(Roothide)
 
-Package: com.25mao.leftpan.rootless
-Version: 1.0-6
-Architecture: iphoneos-arm64
-Maintainer: admin@25mao.com
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.4)
-Filename: ./debs/左滑返回-Rootless.1.0-6.deb
-Size: 44224
-MD5sum: dbe24cc2e025f9f461717ad450ed99ad
-SHA1: 7bf575b5c15e8b52d4391b2189493b59ff354dd1
-SHA256: b6d8cdaba855d0305f70ceb3294e04c59d34d6bca2e10f991d5c18df78ec683c
-Section: Rootless
-Priority: optional
-Description: 左滑返回上一页面
-Author: Mao
-Name: 左滑返回-Rootless
-
 Package: com.82flex.singlemute
 Version: 1.7
 Architecture: iphoneos-arm64e
@@ -1088,6 +1072,24 @@ Size: 181636
 MD5sum: 8da5ae3e391c08644a9dd9c9f8495c5b
 SHA1: fa9932d1543aa37903022c41d27f26476057c922
 SHA256: cc85b47934a32130fc08fdbc97ddd6e94cd4f05a987e9102cdb2352e900aef92
+Section: 应用程序
+Description: Process Viewer for iOS（修复粗体闪退）
+Author: Domo <domo@rambler.ru>
+Icon: https://siieo.github.io/sileodepictions/CocoaTop/icon.png
+Name: CocoaTop64
+
+Package: ru.domo.cocoatop64
+Version: 2.2.4-1
+Architecture: iphoneos-arm64e
+Maintainer: Ash
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0)
+Conflicts: ru.domo.cocoatop
+Filename: ./debs/ru.domo.cocoatop64_2.2.4-1_iphoneos-arm64e.deb
+Size: 221364
+MD5sum: 267751d88e2d67c1a157cec55234fa1d
+SHA1: 78f5cda2201f27d7c9b3f508fd734e3f5b377f26
+SHA256: 375f08b3f647af67a5f1aad214bdc79807a8870b5b56faad308d8df61a81b363
 Section: 应用程序
 Description: Process Viewer for iOS（修复粗体闪退）
 Author: Domo <domo@rambler.ru>
