@@ -79,22 +79,6 @@ Author: null
 Icon: https://s1.imagehub.cc/images/2025/06/15/57b69ab9edb5fe7970bc3d47268389fc.png
 Name: TalkatoneNoAds
 
-Package: com.be-huge.wechat-pop-vc
-Version: 0.0.4
-Architecture: iphoneos-arm64
-Maintainer: be-huge
-Installed-Size: 232
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debs/com.be-huge.wechat-pop-vc_0.0.4_iphoneos-arm64.deb
-Size: 21874
-MD5sum: 49151a0cae3a48b8ead1420092648bd7
-SHA1: b055f05362230a9fa95c9e63ca1ab8196916011f
-SHA256: 0a8ff3ae3bfb00b81af653ee0ef0efd67a340618fbc8a3252b3bd3d08a1232d1
-Section: Tweaks
-Description: 微信全局右滑手势，弥补官方只能屏幕侧边返回上一页局限性，提高用户体验。
-Author: be-huge
-Name: WeChatPopVC-rootless
-
 Package: com.be-huge.wechat-push-msg-page
 Version: 0.0.5
 Architecture: iphoneos-arm64
@@ -183,21 +167,6 @@ Section: Tweaks
 Author: Donato Fiore
 Name: 计算器添加历史按钮
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.fiore.calculatorhistory/depiction.json
-
-Package: com.hk.shuffle.cn.rl
-Version: 1.6.2-1
-Architecture: iphoneos-arm64
-Maintainer: 妖刀
-Depends: mobilesubstrate
-Filename: ./debs/Shuffle简体中文包rootless.1.6.2-1.deb
-Size: 10800
-MD5sum: dee3b699f796ef529bbfea819a3cf1a2
-SHA1: c1c5b573d26dcffacb95b06501c5f993af42c32e
-SHA256: 6ae77ca20de2589a0cedaea1c394d247225ba231d0cd7ea7c67e291f2122cd9f
-Section: 嗨-汉化
-Description: Shuffle 简体中文包(rootless)。
-Author: 妖刀
-Name: Shuffle 简体中文包(rootless)
 
 Package: com.lclrc.hammerit
 Version: 1.7.1
