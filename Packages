@@ -47,6 +47,23 @@ Author: 0xkuj
 Icon: https://sini921.github.io/repo/sileodepiction/icon/safarix.png
 Name: SafariX
 
+Package: com.0xkuj.safarix
+Version: 1.9.9.1
+Architecture: iphoneos-arm64e
+Maintainer: 0xkuj
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.0xkuj.safarix_1.9.9.1_iphoneos-arm64e.deb
+Size: 371622
+MD5sum: 22b2df6a0fdd55a78e3c563e4965bf56
+SHA1: 55283808caf026a8ce141a66af674931616dc39f
+SHA256: 9d861c0d34dab096a6b23514e2e176b4f2fcf6c9658017d3349a1eaacb7128c8
+Section: 插件
+Description: Safari浏览器增强。
+Author: 0xkuj
+Icon: https://sini921.github.io/repo/sileodepiction/icon/safarix.png
+Name: SafariX
+
 Package: com.25mao.leftpan.rootless
 Version: 1.0-6
 Architecture: iphoneos-arm64
@@ -79,6 +96,23 @@ Section: Tweaks
 Description: Just a single mute icon on the status bar of iOS.
 Author: 82Flex <82flex@gmail.com>
 Name: Single Mute
+
+Package: com.82flex.touchvis
+Version: 4.0.2
+Architecture: iphoneos-arm64e
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 4360
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.82flex.touchvis_4.0.2_iphoneos-arm64e.deb
+Size: 2581702
+MD5sum: c4c7bfe4745099a798a7a3b527257d02
+SHA1: d16f036d89d6f980debb754fb1ce7b8ef3c8a070
+SHA256: 6d7d5dd93a02711080648d2efd7faccc33e26aed204180148127867ab7677869
+Section: Tweaks
+Description: Display your touch interactions!
+Author: Lessica <82flex@gmail.com>
+Name: Touch-Viz
 
 Package: com.Talkatonehook
 Version: 1.0
@@ -168,6 +202,24 @@ Depiction: https://creaturecoding.com/?page=depiction&id=libcspreferences
 Name: libCSPreferences
 Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcspreferences
 
+Package: com.dao.satella
+Version: 1.9.0-1
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 13.0), preferenceloader, com.opa334.altlist
+Conflicts: xyz.cypwn.satella, emt.paisseon.satella, com.dao.satella.cn
+Filename: ./debs/com.dao.satella_1.9.0-1_iphoneos-arm64e.deb
+Size: 94590
+MD5sum: 5d8c06de9ba1be54455d2cfd869f78c2
+SHA1: 83052c372662343f45b1787f1c3311f6fec773a6
+SHA256: 22a06e208bf231185d491e77491fb048a113f4afb0d1e9f117f0c18ba007a7d1
+Section: 嗨-破解
+Description: 牛X的应用内购买破解器，已包含简体中文包。
+Author: Paisseon
+Name: Satella 中文版(rootless)
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/satella/js.json
+
 Package: com.exile90.icleanerpro
 Version: 7.10.0
 Architecture: iphoneos-arm64
@@ -223,6 +275,24 @@ Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.
 Name: WCPulse
 Sileodepiction: http://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/WCPulse.json
 
+Package: com.jontelang.snapper3
+Version: 1.2.1
+Architecture: iphoneos-arm64e
+Maintainer: Jonathan Winger-lang
+Installed-Size: 4148
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: ./debs/com.jontelang.snapper3_1.2.1_iphoneos-arm64e.deb
+Size: 2269492
+MD5sum: 2392f4ee4c5235d5e343fb5897ee43ea
+SHA1: b531e8c9e41333c66c4e01a3ebde5632a72a2ebc
+SHA256: 03caee9d9574c5ca40831d5d7b1ba7cb77f2187b265fb094a3f927d5e113e63b
+Section: Tweaks
+Description: Pin screenshots on the screen.
+Author: Jonathan Winger-lang
+Name: Snapper 3
+
 Package: com.lclrc.hammerit
 Version: 1.7.1
 Architecture: iphoneos-arm64
@@ -255,6 +325,24 @@ Section: Tweaks
 Description: 使手机在锁屏状态也可以继续录屏。修复支持Dopamine，感谢原作者提供的思路。
 Author: Muirey03 & lclrc
 Name: 锁屏录屏RecordAnywhere
+
+Package: com.lclrc.squidgesturepro
+Version: 2.7.6
+Architecture: iphoneos-arm64e
+Maintainer: SquidForce
+Installed-Size: 6636
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.lclrc.squidgesture
+Filename: ./debs/com.lclrc.squidgesturepro_2.7.6_iphoneos-arm64e.deb
+Size: 5332226
+MD5sum: cd8f6b0b6b7bc8aca269ca825b805320
+SHA1: 4661d8818a7636ed91b07e4af983865b37ce5125
+SHA256: 859aa6820109a91c13e8108578b86c6d57dd9661571c8a1afd41ddb69965dc8d
+Section: Tweaks
+Description: Gestures
+Author: SquidForce
+Name: SquidGesture Pro
 
 Package: com.netskao.appdata
 Version: 1.4.4
@@ -445,6 +533,44 @@ Icon: https://skypain.github.io/repo/src/ccautobrightness/Icon.png
 Name: CCAutoBrightness
 Sileodepiction: https://skypain.github.io/repo/src/ccautobrightness/config/sileo/depiction.json
 
+Package: com.skypain.ccautobrightness
+Version: 1.0.0-1
+Architecture: iphoneos-arm64e
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.opa334.ccsupport
+Filename: ./debs/com.skypain.ccautobrightness_1.0.0-1_iphoneos-arm64e.deb
+Size: 20128
+MD5sum: 90ffa790acd44727fc5b0ac0af916c61
+SHA1: e083c9134ba6c6c8eab600aa11bad2ded5d83e88
+SHA256: b66cd5c30a86be3d7ab15561e8959bd6cf1b934b93b60cb3fdb603cbb0e979d0
+Section: Control Center (Modules)
+Homepage: https://skypain.github.io/repo/
+Description: 控制中心自动亮度模块
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Depiction: https://skypain.github.io/repo/static/view/?p=ccautobrightness
+Icon: https://skypain.github.io/repo/src/ccautobrightness/Icon.png
+Name: CCAutoBrightness
+Sileodepiction: https://skypain.github.io/repo/src/ccautobrightness/config/sileo/depiction.json
+
+Package: com.squidforce.copyvault
+Version: 1.9.0
+Architecture: iphoneos-arm64e
+Maintainer: SquidForce
+Installed-Size: 6304
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: ./debs/com.squidforce.copyvault_1.9.0_iphoneos-arm64e.deb
+Size: 4861676
+MD5sum: cb1a69eaa2fb5837150fd178fb2e648d
+SHA1: bcedde866270c72fcec5508dadeb1faec1357095
+SHA256: 39f9414fcad5a848f84d80eb64a7337863c081211c199f07683bc4c79d740d09
+Section: Tweaks
+Description: Your Copy Vault, Your Pasteboard
+Author: SquidForce
+Name: CopyVault
+
 Package: com.squidforce.snapper3.plugins
 Version: 1.2
 Architecture: iphoneos-arm64
@@ -461,6 +587,23 @@ Description: including iMark and Piiico for now
 Author: SquidForce(乌贼力量)
 Icon: https://s1.imagehub.cc/images/2025/01/01/6649d33bb5c1426f31fa0d05bddce392.png
 Name: Plugins For Snapper3
+
+Package: com.squidforce.squidextender
+Version: 3.7.4
+Architecture: iphoneos-arm64e
+Maintainer: SquidForce
+Installed-Size: 10136
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
+Filename: ./debs/com.squidforce.squidextender_3.7.4_iphoneos-arm64e.deb
+Size: 6935892
+MD5sum: bb7e407a78369109b1f735f25db9c4c9
+SHA1: efd86115cbf4d9d0d35212e21f0fcd1eb87ee818
+SHA256: 505f9fcfec0395d9c4cb97699f68d79281d82f9b62685769311d984b70a2ff9b
+Section: Tweaks
+Description: Extend your keyboard to be more POWERFULL!
+Author: SquidForce
+Name: SquidExtender
 
 Package: com.sunshinesong.native-island
 Version: 1.0.3
@@ -794,6 +937,40 @@ Description: Quickly switch the type of cellular data 2/3/4/5G currently in use 
 Author: Netskao
 Name: CCCellularRate-Rootless
 
+Package: netskao.cccellularrate-rootless
+Version: 1.1-1
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Installed-Size: 616
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/netskao.cccellularrate-rootless_1.1-1_iphoneos-arm64e.deb
+Size: 115938
+MD5sum: e8ac4ce21096ed96932c5c4636be3d22
+SHA1: 1096a5e1b8ac906601a708750e732c54bb58f1b8
+SHA256: 3d064184b592bb7e12566be141534f96725205e8eb6c0620f0381a0f8086f0b7
+Section: Netskao-Tweaks
+Description: Quickly switch the type of cellular data 2/3/4/5G currently in use via the Control Center, only the types supported in the current device settings will be displayed
+Author: Netskao
+Name: CCCellularRate-Rootless
+
+Package: netskao.ccsim-rootless
+Version: 1.1-9
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Installed-Size: 188
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/netskao.ccsim-rootless_1.1-9_iphoneos-arm64e.deb
+Size: 28770
+MD5sum: 2010ce09ff36a461870a48debd9aec98
+SHA1: cabdf0e1f4eb27682fe2db6442a2f3858ede9ebc
+SHA256: 15552f0d606f00c4f2c15bb7acb8182b441e5e3bbbd5175122ab9e3fd9058a4b
+Section: Netskao-Tweaks
+Description: For dual-SIM cards, you can quickly enable or disable one of the SIM cards through the Control Center
+Author: Netskao
+Name: CCSIM-Rootless
+
 Package: netskao.ccsim-rootless
 Version: 1.1-9
 Architecture: iphoneos-arm64
@@ -809,6 +986,23 @@ Section: Netskao-Tweaks
 Description: For dual-SIM cards, you can quickly enable or disable one of the SIM cards through the Control Center
 Author: Netskao
 Name: CCSIM-Rootless
+
+Package: netskao.ccswitchdata-rootless
+Version: 1.1-4
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Installed-Size: 132
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/netskao.ccswitchdata-rootless_1.1-4_iphoneos-arm64e.deb
+Size: 26424
+MD5sum: e0c737bb0fedf13719b8fe4b1268e0ed
+SHA1: be98ddc3e5ac6059801cbdd83b0bae5bd12c5c84
+SHA256: d4eeccb058d2395f52391227655e15e37ab1a8a9d6dfad717ba99fd2f840648e
+Section: Netskao-Tweaks
+Description: For dual-SIM cards, the selected cellular network can be switched quickly via the Control Center
+Author: Netskao
+Name: CCSwitchData-Rootless
 
 Package: p7zip
 Version: 17.04
@@ -939,4 +1133,25 @@ Priority: important
 Multi-Arch: foreign
 Description: standard Windows compression tool
 Name: zip
+
+Package: zp.dopamine.blacklist
+Version: 0.0.1-1
+Architecture: iphoneos-arm64e
+Maintainer: zqbb
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/zp.dopamine.blacklist_0.0.1-1_iphoneos-arm64e.deb
+Size: 35728
+MD5sum: 6adcbc4257b9c548f8f2fc91d8c9f073
+SHA1: 29cde046dd645a9fb72b0a965c63fd4a0229c9b7
+SHA256: 5fff66801db9d5255b4671cefd30f4f1f0c619fc387e0bea1c2e2fd7f3065fce
+Section: Tweaks
+Description: 皮版Dopamine屏蔽注入.
+ - 暴力修改XinaA15注入黑名单.(●'◡'●)
+ - 浪哥v587
+ - 浪哥v587
+ - 浪哥v587
+Author: zqbb
+Name: DopamineBlackList
+Sileodepiction: https://rootless.002599.xyz/web/zp.dopamine.blacklist
 
