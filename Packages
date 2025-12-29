@@ -861,23 +861,6 @@ Author: SuSu
 Icon: https://s1.imagehub.cc/images/2025/12/13/f934f840753cc376919f03e706ab50ab.png
 Name: Picta
 
-Package: com.tigisoftware.filza64bit
-Version: 4.0.1-4
-Architecture: iphoneos-arm64
-Maintainer: TIGI Software
-Installed-Size: 23200
-Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
-Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
-Filename: ./debs/FilzaFileManager64-bit.4.0.1-4.deb
-Size: 6972556
-MD5sum: d756e61828d455d8aea55c99061b5f0c
-SHA1: 86f9d39d8ae9e351874fe321d4777dcd98789019
-SHA256: 4e516036e3f4b652b76f1604701dca3a89ea21c121ad70f2ef67f3c7e082c5c4
-Section: Utilities
-Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 11+. This version only supports 64-bit devices
-Author: TIGI Software
-Name: Filza File Manager 64-bit
-
 Package: com.wkk.manager
 Version: 1.3.6
 Architecture: iphoneos-arm64e
