@@ -220,6 +220,26 @@ Depiction: https://creaturecoding.com/?page=depiction&id=libcspreferences
 Name: libCSPreferences
 Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcspreferences
 
+Package: com.creaturecoding.libcspreferences
+Version: 1.5.8
+Architecture: iphoneos-arm64e
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 2332
+Pre-Depends: rootless-compat(>= 0.9), firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate
+Filename: ./debs/com.creaturecoding.libcspreferences_1.5.8_iphoneos-arm64e.deb
+Size: 976856
+MD5sum: edfa162bb9fd8cdebb9bd65797b9f028
+SHA1: 61a1e658421e95821a589aec3ab286f2a442ce3c
+SHA256: b678a92c69438d61feccd98b471224e038a4eda486cd556c1e06961579a566fe
+Section: System
+Homepage: https://creaturecoding.com/
+Description: A Preference Library that doesn't suck!
+Tag: compatible_min::iOS9
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturecoding.com/?page=depiction&id=libcspreferences
+Name: libCSPreferences
+Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcspreferences
+
 Package: com.dao.satella
 Version: 1.9.0-1
 Architecture: iphoneos-arm64e
@@ -240,6 +260,27 @@ Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/satella/js.js
 
 Package: com.exile90.icleanerpro
 Version: 7.10.0
+Architecture: iphoneos-arm64e
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: ./debs/com.exile90.icleanerpro_7.10.0_iphoneos-arm64e.deb
+Size: 2500230
+MD5sum: 35cc7c3222329c8933546f47ddb9e752
+SHA1: d1fbb5b1c7e96d885e03ef6d411384fed195cb64
+SHA256: 6483f1563c531f128222319ab057971e39c0119f466e8f793f613c74c8dd9554
+Section: Utilities
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleanup and management utility
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner Pro
+
+Package: com.exile90.icleanerpro
+Version: 7.10.0
 Architecture: iphoneos-arm64
 Maintainer: Ivano Bilenchi <support@ib-soft.net>
 Depends: firmware (>= 4.0), findutils, apt | apt7
@@ -257,6 +298,23 @@ Author: Ivano Bilenchi <support@ib-soft.net>
 Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
 Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner Pro
+
+Package: com.fiore.calculatorhistory
+Version: 1.1.3
+Architecture: iphoneos-arm64e
+Maintainer: Donato Fiore & lclrc
+Installed-Size: 204
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Filename: ./debs/com.fiore.calculatorhistory_1.1.3_iphoneos-arm64e.deb
+Size: 21670
+MD5sum: d1409c21ceae6e69e47753ce695812dd
+SHA1: e48ca678ef5928c2ca2b9d8ec4fa0a165c64e162
+SHA256: 9aad29bd35b231274ffb34f062cc23d78c780e5f15adf7e9e1df00339bad4cfd
+Section: Tweaks
+Author: Donato Fiore
+Name: 计算器添加历史按钮
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.fiore.calculatorhistory/depiction.json
 
 Package: com.fiore.calculatorhistory
 Version: 1.1.3
@@ -327,6 +385,41 @@ Description: Control your text or translate as you wish.
 Author: lclrc(SquidForce)
 Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
 Name: Hammer It
+
+Package: com.lclrc.hammerit
+Version: 1.7.1
+Architecture: iphoneos-arm64e
+Maintainer: lclrc(SquidForce)
+Installed-Size: 3808
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
+Filename: ./debs/com.lclrc.hammerit_1.7.1_iphoneos-arm64e.deb
+Size: 2748466
+MD5sum: f01a773bee71fc5cea290deaaba46c68
+SHA1: c9163e0d2aac91f739e206b07d4049e7a2399c32
+SHA256: 16bbddc86f1b224bdcc0fd4b19c679e72524021cf4a15738748501a440e8c467
+Section: Tweaks
+Description: Control your text or translate as you wish.
+Author: lclrc(SquidForce)
+Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
+Name: Hammer It
+
+Package: com.lclrc.recordanywhere
+Version: 1.1.0
+Architecture: iphoneos-arm64e
+Maintainer: Muirey03 & lclrc
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.lclrc.recordanywhere_1.1.0_iphoneos-arm64e.deb
+Size: 6196
+MD5sum: 5ba5a826d2a10c707d5b2de2ea00c05e
+SHA1: cbcc78058fe57f03573257d4d6e23902eacd7083
+SHA256: eccd9f395d8a0c00cd477dca190f77e2d04f9d8627e23c77b6d2be6441390cc6
+Section: Tweaks
+Description: 使手机在锁屏状态也可以继续录屏。修复支持Dopamine，感谢原作者提供的思路。
+Author: Muirey03 & lclrc
+Name: 锁屏录屏RecordAnywhere
 
 Package: com.lclrc.recordanywhere
 Version: 1.1.0
@@ -419,6 +512,29 @@ Description: Advanced Tweak Configuration!
 Author: opa334 <opa334@protonmail.com>
 Depiction: https://opa334.github.io/depic/Choicy/index.html
 Name: Choicy
+
+Package: com.opa334.libsandy
+Version: 1.1.4
+Architecture: iphoneos-arm64e
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 268
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: ws.hbang.stopcrashingpls (<= 1.0.2)
+Filename: ./debs/com.opa334.libsandy_1.1.4_iphoneos-arm64e.deb
+Size: 16964
+MD5sum: 6e80172db4d79f386b66965312ff37d0
+SHA1: 9f1271b6bb98dfc459d5db32eaf9d3dc179e85de
+SHA256: 60ed88c04c8d0d6e96bafb32e09e64f7a8f9fea4dd4872b9f561a8f885ac9914
+Section: System
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Description: Securely extend the sandbox of system processes and user applications
+Tag: purpose::extension, role::developer
+Author: opa334 <opa334@protonmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Dev: opa334
+Name: libSandy
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.opa334.libsandy
 Version: 1.1.4
@@ -606,6 +722,24 @@ Author: SquidForce(乌贼力量)
 Icon: https://s1.imagehub.cc/images/2025/01/01/6649d33bb5c1426f31fa0d05bddce392.png
 Name: Plugins For Snapper3
 
+Package: com.squidforce.snapper3.plugins
+Version: 1.2
+Architecture: iphoneos-arm64e
+Maintainer: SquidForce(乌贼力量)
+Installed-Size: 232
+Pre-Depends: rootless-compat(>= 0.9)
+Conflicts: com.lclrc.snapper3.plugins
+Filename: ./debs/com.squidforce.snapper3.plugins_1.2_iphoneos-arm64e.deb
+Size: 46356
+MD5sum: cbaf03998b51ee6f6618dff714788e09
+SHA1: 03bcd8299c56fa258ac9074000c74dabfe8115a8
+SHA256: 9733dccf8dd78e658ae7bb48dc0add1006c7d1552fcfe4d38d564b6a8051d5b1
+Section: Tweaks
+Description: including iMark and Piiico for now
+Author: SquidForce(乌贼力量)
+Icon: https://s1.imagehub.cc/images/2025/01/01/6649d33bb5c1426f31fa0d05bddce392.png
+Name: Plugins For Snapper3
+
 Package: com.squidforce.squidextender
 Version: 3.7.4
 Architecture: iphoneos-arm64e
@@ -622,6 +756,23 @@ Section: Tweaks
 Description: Extend your keyboard to be more POWERFULL!
 Author: SquidForce
 Name: SquidExtender
+
+Package: com.sunshinesong.native-island
+Version: 1.0.3
+Architecture: iphoneos-arm64e
+Maintainer: sunshinesong
+Installed-Size: 908
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), org.thebigboss.libcolorpicker
+Filename: ./debs/com.sunshinesong.native-island_1.0.3_iphoneos-arm64e.deb
+Size: 197712
+MD5sum: 792ed520938a5e0af8fd92c6e4d0901a
+SHA1: 690555888af536f2f67b964ac4c0fe8a89beeeb4
+SHA256: 2760c749adce8ff50d2953b254bb49afce60a8418f987a90d9f5adb491017760
+Section: Tweaks
+Description: 原生岛通知，从简即可。仅仅支持iOS16.0+
+Author: sunshinesong
+Name: native-island-notifier
 
 Package: com.sunshinesong.native-island
 Version: 1.0.3
@@ -650,6 +801,24 @@ Size: 2305616
 MD5sum: cbab402c772d58a69317dd19048af8be
 SHA1: 9937afc7fc7d20b618ad9a5033eaf51148ed5404
 SHA256: f4b1641bc35f6c742a87664b65ec331f520dc741518ef701ea78b85d755899ca
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。
+Author: sunshinesong
+Name: split-view-pro
+Ts: sp-sss
+
+Package: com.sunshinesong.split-view-pro
+Version: 1.4.0
+Architecture: iphoneos-arm64e
+Maintainer: sunshinesong
+Installed-Size: 5472
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader, com.opa334.altlist
+Filename: ./debs/com.sunshinesong.split-view-pro_1.4.0_iphoneos-arm64e.deb
+Size: 4482362
+MD5sum: 6d6e8e563d11a86af52952ff534a61ae
+SHA1: b2d3862cbc54f56f4622bc36f6a03dea9710c8bb
+SHA256: f325bb654f0701d9dd964fb95ffbc699054971c0d94dfda4b294e5d1fa56ea5a
 Section: Tweaks
 Description: 分屏，不必太复杂，一切从简即可。
 Author: sunshinesong
@@ -799,6 +968,25 @@ Name: 威锋NoAds
 
 Package: com.xybp888.noapplemobilerepair
 Version: 0.0.1-103
+Architecture: iphoneos-arm64e
+Maintainer: xybp888
+Installed-Size: 152
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xybp888.noapplemobilerepair_0.0.1-103_iphoneos-arm64e.deb
+Size: 14342
+MD5sum: 3573500704fc6687ddca76e958898c44
+SHA1: ba99b5abc1c088bcf7dad74f73f071e24eda27da
+SHA256: 4a1ee4d084e2d3b499f54d179a9639a9ecae56642de361f48af10014922e138b
+Section: Tweaks
+Description: No Apple MobileRepair
+Author: xybp888
+Depiction: https://apt.htv123.com/view/159
+Name: No Apple MobileRepair
+Sileodepiction: https://apt.htv123.com/sileo/159
+
+Package: com.xybp888.noapplemobilerepair
+Version: 0.0.1-103
 Architecture: iphoneos-arm64
 Maintainer: xybp888
 Installed-Size: 152
@@ -930,6 +1118,27 @@ Size: 37720
 MD5sum: 402214901aca2e45c30556ceb235c6a1
 SHA1: 2f986934a77a3a97876604913cff4fef84ba6f82
 SHA256: 98cc27a29834f7579b50ac0c60242b150dae0f8a29d1944a31a636614640544a
+Section: Control Center (Modules)
+Description: Force 2G/3G/4G/5G connection from the Control Center
+Author: NoisyFlake, Nixuge
+Depiction: http://cydia.nixuge.me/depiction/web/me.nixuge.networkmanager.html
+Icon: http://cydia.nixuge.me/assets/me.nixuge.networkmanager/icon.png
+Moderndepiction: http://cydia.nixuge.me/depiction/native/me.nixuge.networkmanager.json
+Name: NetworkManagerReborn
+Sileodepiction: http://cydia.nixuge.me/depiction/native/me.nixuge.networkmanager.json
+
+Package: me.nixuge.networkmanager
+Version: 1.4.3
+Architecture: iphoneos-arm64e
+Maintainer: Nixuge
+Installed-Size: 396
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/me.nixuge.networkmanager_1.4.3_iphoneos-arm64e.deb
+Size: 46032
+MD5sum: e8a2a9424d84434d8c3cd6607a115358
+SHA1: 1cf551db2abda609026112ff31fe0654e180bfe7
+SHA256: 1004909a30435e0c618306663fd72a5f91a6da9edd742e9734770bfc45087c64
 Section: Control Center (Modules)
 Description: Force 2G/3G/4G/5G connection from the Control Center
 Author: NoisyFlake, Nixuge
