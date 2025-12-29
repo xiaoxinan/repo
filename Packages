@@ -63,6 +63,23 @@ Description: 左滑返回上一页面
 Author: Mao
 Name: 左滑返回-Rootless
 
+Package: com.82flex.singlemute
+Version: 1.7
+Architecture: iphoneos-arm64e
+Maintainer: 82Flex <82flex@gmail.com>
+Installed-Size: 388
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./debs/com.82flex.singlemute_1.7_iphoneos-arm64e.deb
+Size: 33296
+MD5sum: fa4e6ec9b0d3507fd61fe845b7b666d0
+SHA1: 4451b783525d711f2c8084a846399182abac094d
+SHA256: ca3e876b6170fafbc0d491bc79f3788e42dd770e5f50c79b145854a32e19a3ee
+Section: Tweaks
+Description: Just a single mute icon on the status bar of iOS.
+Author: 82Flex <82flex@gmail.com>
+Name: Single Mute
+
 Package: com.Talkatonehook
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -79,6 +96,23 @@ Author: null
 Icon: https://s1.imagehub.cc/images/2025/06/15/57b69ab9edb5fe7970bc3d47268389fc.png
 Name: TalkatoneNoAds
 
+Package: com.be-huge.tie-gesture-advance
+Version: 1.1.0
+Architecture: iphoneos-arm64e
+Maintainer: be-huge
+Installed-Size: 1256
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/com.be-huge.tie-gesture-advance_1.1.0_iphoneos-arm64e.deb
+Size: 320108
+MD5sum: 4db186caf6d5c3d18e95a874490b83fc
+SHA1: 0815b934baeed6db56b57087916f9f3d734f6d25
+SHA256: 01cdc461ef1a1bd9aa7dd655ece5249009a0ebc3e140daef990f7623c05cecdc
+Section: Tweaks
+Description: 手势插件，一切从简即可。
+Author: be-huge
+Name: TieGesture-rootless(收费版)
+
 Package: com.be-huge.wechat-push-msg-page
 Version: 0.0.5
 Architecture: iphoneos-arm64
@@ -92,6 +126,24 @@ SHA1: 75bb82754b5fdec3de4949ee2fb870e02996d4d1
 SHA256: fade8549cfb1b1d08a523004624f69a5f75379a1e4f5c6f50263c86a0ad43924
 Section: Tweaks
 Description: 弥补微信通知不足，支持点击微信消息通知横幅，跳转到对应的窗口。
+Author: be-huge
+Name: WechatPushMsgPage-rootless
+Sileodepiction: https://be-huge.github.io/repo/ChangeLog/Wechat/WechatMsg.json
+
+Package: com.be-huge.wechat-push-msg-page
+Version: 0.0.5-end
+Architecture: iphoneos-arm64e
+Maintainer: be-huge
+Installed-Size: 232
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/com.be-huge.wechat-push-msg-page_0.0.5-end_iphoneos-arm64e.deb
+Size: 34096
+MD5sum: 26a05da2249eedf6663ebc8e055edff1
+SHA1: 12dabc6fcaa414d1abee0ca9b5f9afcd27aa2cd5
+SHA256: f1c1986a8facf89360ae2c14e1353bc1aa4835b68765e04c8adccb6b4a002d35
+Section: Tweaks
+Description: 弥补微信通知不足，支持点击微信消息通知横幅，跳转到对应的窗口。（代码已开源，后续功能失效可以自行打补丁）
 Author: be-huge
 Name: WechatPushMsgPage-rootless
 Sileodepiction: https://be-huge.github.io/repo/ChangeLog/Wechat/WechatMsg.json
@@ -151,6 +203,25 @@ Section: Tweaks
 Author: Donato Fiore
 Name: 计算器添加历史按钮
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.fiore.calculatorhistory/depiction.json
+
+Package: com.huami.WCPulse
+Version: 1.3-4
+Architecture: iphoneos-arm64e
+Maintainer: huami
+Installed-Size: 240
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.huami.WCPulse_1.3-4_iphoneos-arm64e-1.deb
+Size: 400416
+MD5sum: d649ce3ed9858e6759d97994d0d7c363
+SHA1: 209186755a183b1976bb69159b2518c0aa524c6e
+SHA256: a4e16b8d7c6b226174e7cf5c81452ca09ed3765d5cbdd92d22153859c76a43bd
+Section: 微信插件
+Description: WCPulse
+Author: huami
+Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
+Name: WCPulse
+Sileodepiction: http://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/WCPulse.json
 
 Package: com.lclrc.hammerit
 Version: 1.7.1
@@ -265,6 +336,25 @@ Dev: opa334
 Name: libSandy
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.p2kdev.tapticboard
+Version: 1.2
+Architecture: iphoneos-arm64e
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 396
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate,firmware (>= 13.0)
+Filename: ./debs/com.p2kdev.tapticboard_1.2_iphoneos-arm64e.deb
+Size: 27642
+MD5sum: a4e30d702b43b5593bc9e2ab794e2522
+SHA1: 4e557ba015a1f17846bd9bc9d43d182ce529114d
+SHA256: 8280eea1a1425af2d3b6d2e1283f20a8832069b335d1eacc0a544a6cfae724a6
+Section: 插件
+Description: ios15-16键盘震动的终极调整，敲击键盘或候选词都是震动，
+Author: P2KDev <p2kdev@gmail.com>
+Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.p2kdev.tapticboard
+Icon: https://s1.imagehub.cc/images/2025/01/22/da95cacf3e9dbdaec0311e6a00989e86.png
+Name: TapticBoard
+
 Package: com.ps.smoothcursorios13
 Version: 0.0.1
 Architecture: iphoneos-arm64e
@@ -284,6 +374,23 @@ Author: PoomSmart
 Icon: https://www.susubaby.top/images/smoothcursor.png
 Name: SmoothCursor (iOS 13+)
 
+Package: com.qimiao.WCRefine
+Version: 1.1-9
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.qimiao.WCRefine_1.1-9_iphoneos-arm64e.deb
+Size: 3685714
+MD5sum: 9261f4da57d32a6978df61c82d40ac34
+SHA1: e53eb78119f8e47c4fe40412f0b16aeb43d1f8bc
+SHA256: 72c31c245b10d86620b39c858b843dc479c3442343f6fa7b8c32194d3fc6dbfe
+Section: 微信插件
+Description: 微信优化的重制版本，WCRefine基于微信8.0.64版本制作。
+Author: 热心网友
+Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
+Name: WCRefine
+
 Package: com.shadow.fuckthermal
 Version: 1.2-38
 Architecture: iphoneos-arm64
@@ -298,6 +405,25 @@ Section: Tweaks
 Description: An awesome MobileSubstrate tweak!
 Author: Shadow-
 Name: fuckthermal
+
+Package: com.sini.dyyy
+Version: 2.2-8-build1595
+Architecture: iphoneos-arm64
+Maintainer: huami
+Installed-Size: 2004
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.sini.dyyy_2.2-8-build1595_iphoneos-arm64.deb
+Size: 435824
+MD5sum: 1c4d05064a9539dfc98f7bd64f2451be
+SHA1: f35e5f42f364d9860b626c8e3978cf9e3fdfd544
+SHA256: d5f323e2c12dad4b1bf4e18cc44e560e60631134fd0f3facc17da6790d4ae199
+Section: 应用破解
+Priority: optional
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Author: huami
+Icon: https://sini921.github.io/repo/sileodepiction/icon/dyyy.png
+Name: DYYY(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/dyyy/js.json
 
 Package: com.skypain.ccautobrightness
 Version: 1.0.0-1
@@ -387,6 +513,24 @@ Author: 苏苏
 Icon: https://www.susuboy.cn/images/photos.png
 Name: SuPhotos
 
+Package: com.susu.snapper3.picta
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: SuSu
+Installed-Size: 180
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.jontelang.snapper3 (>= 1.1.1)
+Filename: ./debs/com.susu.snapper3.picta_1.0.0_iphoneos-arm64e.deb
+Size: 11608
+MD5sum: 76bd3ba80b8adafd3703f6040610c548
+SHA1: d2fe029ba0ed80d5db8fc18b194130006dd50fba
+SHA256: 0c9b8d5e688aadb587b1396e8a9da63dcfd10c782fd0cd7038dc67c9a9efba32
+Section: Tweaks
+Description: Picta适配 Snapper3 的插件
+Author: SuSu
+Icon: https://s1.imagehub.cc/images/2025/12/13/f934f840753cc376919f03e706ab50ab.png
+Name: Picta
+
 Package: com.tigisoftware.filza64bit
 Version: 4.0.1-4
 Architecture: iphoneos-arm64
@@ -404,6 +548,58 @@ Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 11+. This v
 Author: TIGI Software
 Name: Filza File Manager 64-bit
 
+Package: com.wkk.filzacrack
+Version: 1.1-9
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Installed-Size: 120
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.wkk.filzacrack_1.1-9_iphoneos-arm64e.deb
+Size: 39714
+MD5sum: f92cfd12b06818736287b6125151e664
+SHA1: 95ed36ec759ece16d2024afe35b082162ee9bab6
+SHA256: 9a156f4e44d05ef9b25e165b993de461fadc1f429031c984c1cd2d6700538e74
+Section: Tweaks
+Description: Filza Crack
+Author: Netskao
+Icon: https://s1.imagehub.cc/images/2025/04/02/754b2bb601bad95dca5cb982e7d926af.jpeg
+Name: Filza Crack
+
+Package: com.wkk.manager
+Version: 1.3.6
+Architecture: iphoneos-arm64e
+Maintainer: roothide
+Installed-Size: 1060
+Depends: firmware (>= 15.0)
+Filename: ./debs/com.wkk.manager_1.3.6_iphoneos-arm64e.deb
+Size: 744648
+MD5sum: 5a78c585845917911c1ef578459a4b41
+SHA1: 87352695b5539eb7f77c8496d69c52917eeb0f3f
+SHA256: 0dbb3a1c593179732932d3e9eab1724701341ea0b7e1c3392d9e2ce9c19280b5
+Section: Tweaks
+Description: 配置RootHide的功能（去掉挂载提示）
+Author: roothide
+Depiction: https://github.com/roothide/RootHideManagerApp
+Name: RootHide Manager
+Support: https://github.com/roothide/RootHideManagerApp
+
+Package: com.wkk.storeswitcher2
+Version: 1.0.5
+Architecture: iphoneos-arm64
+Maintainer: 0xkuj
+Depends: firmware (>= 11)
+Filename: ./debs/com.wkk.storeswitcher2_1.0.5_iphoneos-arm64.deb
+Size: 17776
+MD5sum: 75f794260365492afd78fd80847aa659
+SHA1: 8cbbe162ee63e7a627c4cbf54a4f735d544f80f1
+SHA256: 33dff20d5492cd545c73d6a128a1b914dec3cea3f36b2cd55b57c53c0e819bbf
+Section: Tweaks
+Description: 商店内头像处点击，快速切换/删除AppStore账号。
+Author: 0xkuj
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: StoreSwitcher 2
+
 Package: com.wkk.wfhook
 Version: 1.0
 Architecture: iphoneos-arm64e
@@ -418,6 +614,24 @@ SHA1: 1c09aecd5872636b4200e5171ed78f84429b2b44
 SHA256: 4c81f41710ed562374855f46a23164b98b8895191dd2a3be4ed4cbd8a3a20a8b
 Section: 去广告
 Description: 版本：7.0.8
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/10/23/318813ae8987a6ff33c7f64b318b9a70.png
+Name: 威锋NoAds
+
+Package: com.wkk.wfhook
+Version: 1.0-3
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 400
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.wkk.wfhook_1.0-3_iphoneos-arm64e.deb
+Size: 5196
+MD5sum: 0cc78e2908f06e93283bd7450d70117f
+SHA1: a57e005289018a04830f7312cdc2348fd55f83bb
+SHA256: 6600687a49aa6c793541785f288186f734f3a70db584dba7e1babbfff8f4448e
+Section: 去广告
+Description: 去掉可见的所有广告，版本：7.0.8，接大量冷门热门app定制去广告/去更新提示/精简app等业务。联系qq：1772773799
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/10/23/318813ae8987a6ff33c7f64b318b9a70.png
 Name: 威锋NoAds
