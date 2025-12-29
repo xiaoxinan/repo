@@ -116,22 +116,6 @@ Depiction: https://creaturecoding.com/?page=depiction&id=libcspreferences
 Name: libCSPreferences
 Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcspreferences
 
-Package: com.dao.storeswitchaccounts
-Version: 1.1-4
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Depends: firmware (>= 15.0), mobilesubstrate
-Conflicts: com.netskao.storeswitchaccounts, netskao.storeswitchaccounts-rootless
-Filename: ./debs/com.dao.storeswitchaccounts_1.1-4_iphoneos-arm64.deb
-Size: 102592
-MD5sum: 2510dfd66e2afbb5c48f67a543daef60
-SHA1: 079692832399b91e09fda2cbfd73971070c02e13
-SHA256: 82ff94bffcfcd43a6ececc69f53cd8ab6c5f4456a4998f026f1c91d0eab1c486
-Section: 嗨-工具
-Description: 长按桌面AppStore图标即可切换登录过的AppleID。Netskao新更的版本，上架备份。
-Author: Netskao
-Name: StoreSwitchAccounts(rootless)
-
 Package: com.exile90.icleanerpro
 Version: 7.10.0
 Architecture: iphoneos-arm64
@@ -611,22 +595,6 @@ Section: Netskao-Tweaks
 Description: For dual-SIM cards, you can quickly enable or disable one of the SIM cards through the Control Center
 Author: Netskao
 Name: CCSIM-Rootless
-
-Package: netskao.ccswitchdata-rootless
-Version: 1.1-4
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 132
-Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
-Filename: ./debs/CCSwitchData-Rootless.1.1-4.deb
-Size: 20816
-MD5sum: 1cd799cd57cbf8f21aa79c1488cb78e6
-SHA1: 595d902e8b825f79fc7aea41114cdc9ad052b2b9
-SHA256: 1c122651b163ca20d95da604a7cbb4d4458840453aa138d66800e495c153a52b
-Section: Netskao-Tweaks
-Description: For dual-SIM cards, the selected cellular network can be switched quickly via the Control Center
-Author: Netskao
-Name: CCSwitchData-Rootless
 
 Package: p7zip
 Version: 17.04
