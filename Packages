@@ -81,6 +81,23 @@ Description: 左滑返回上一页面
 Author: Mao
 Name: 左滑返回(Roothide)
 
+Package: com.25mao.wcpluginss
+Version: 0.1-3+
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com <admin@25mao.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0)
+Filename: ./debs/com.25mao.wcpluginss_0.1-3+_iphoneos-arm64e.deb
+Size: 26420
+MD5sum: 47249ec58ba5485b9916bdb93b731b44
+SHA1: 3c03ce8dd3c42a67280f66fca6cb41baf78fbd47
+SHA256: 2a4598c8ed958a4931081a323ff56aa9988e9073a06fae091cfe5660e1f1fb06
+Section: 微信插件
+Description: 插件管理，长按插件图标可开启密码隐藏。
+Author: Mao
+Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
+Name: 微信插件管理
+
 Package: com.82flex.singlemute
 Version: 1.7
 Architecture: iphoneos-arm64e
@@ -472,6 +489,24 @@ Author: Fouad Raheb
 Name: AppData
 Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.appdata.json
 
+Package: com.netskao.appdata
+Version: 1.4.4
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Installed-Size: 13548
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.netskao.appdata_1.4.4_iphoneos-arm64e.deb
+Size: 14517750
+MD5sum: 0d4db30db20c2bcd7e972354af0d934f
+SHA1: f1b0ac9d1b4c56d9da7f25bd5aedd56ddd424c6c
+SHA256: e50e895dd749b64b8bf913ff14a14aeb78b4493594cacdac2bf373fd4d0c2018
+Section: Netskao-Tweaks
+Description: View & Manage Applications Data from your Home Screen
+Author: Fouad Raheb
+Name: AppData
+Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.appdata.json
+
 Package: com.opa334.ccsupport
 Version: 1.3.13-2
 Architecture: iphoneos-arm64
@@ -486,6 +521,31 @@ Size: 59092
 MD5sum: a2295b5c8f9a38b5c34913e13b4f7a94
 SHA1: ffd75864d740dcfcf670ac534f86aa6d332efce5
 SHA256: 020b573b88cd8b4df8218a15a4c44e98dfa4cff7ba23c719bcf156c34cad5647
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+Description: Support tweak for CC modules!
+Tag: purpose::extension
+Author: opa334 <opa334@protonmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+Dev: opa334
+Name: CCSupport
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.opa334.ccsupport
+Version: 1.3.13-2
+Architecture: iphoneos-arm64e
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 489
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: com.ioscreatix.silo
+Replaces: com.ioscreatix.silo
+Provides: com.ioscreatix.silo
+Filename: ./debs/com.opa334.ccsupport_1.3.13-2_iphoneos-arm64e.deb
+Size: 77754
+MD5sum: d05c6592bb17a3d4d27402ba2ee9b87b
+SHA1: 93543efeb2efed3802d09ba53d1f89befa5a2524
+SHA256: 455f533b3aa399329c3bedc790ea7c72102b7b45b87a3e2a745df699cdbba4fe
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
 Description: Support tweak for CC modules!
@@ -639,6 +699,26 @@ Size: 435824
 MD5sum: 1c4d05064a9539dfc98f7bd64f2451be
 SHA1: f35e5f42f364d9860b626c8e3978cf9e3fdfd544
 SHA256: d5f323e2c12dad4b1bf4e18cc44e560e60631134fd0f3facc17da6790d4ae199
+Section: 应用破解
+Priority: optional
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Author: huami
+Icon: https://sini921.github.io/repo/sileodepiction/icon/dyyy.png
+Name: DYYY(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/dyyy/js.json
+
+Package: com.sini.dyyy
+Version: 2.2-8-build1595
+Architecture: iphoneos-arm64e
+Maintainer: huami
+Installed-Size: 2004
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.sini.dyyy_2.2-8-build1595_iphoneos-arm64e.deb
+Size: 670502
+MD5sum: b002c61d12762aa0ac9c0a10b2362ad5
+SHA1: 4eb944760a441005e80a0adec3ec0db626b6144d
+SHA256: 8bb08b8cea13ac4a1c35d412f07ca9a49aa66bfd873f524733860696931bade1
 Section: 应用破解
 Priority: optional
 Description: 仅供学习交流，请在 24 小时内自觉删除。
@@ -879,6 +959,23 @@ Depiction: https://github.com/roothide/RootHideManagerApp
 Name: RootHide Manager
 Support: https://github.com/roothide/RootHideManagerApp
 
+Package: com.wkk.pancake
+Version: 2.3
+Architecture: iphoneos-arm64e
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate, ws.hbang.common (>= 1.14), com.opa334.altlist, firmware (>= 11.0)
+Filename: ./debs/com.wkk.pancake_2.3_iphoneos-arm64e.deb
+Size: 128006
+MD5sum: b8c5fce3b1d61285bdea8dbb6edd5693
+SHA1: 42ccd12b3f6775b6209a8d28b88def2ef580bac4
+SHA256: 427aaf8eb153d173be2bfd1df1a1c60cd66eec2feb1b48210ed4e5c497e62c37
+Section: Tweaks
+Description: 全局右滑手势，已汉化。
+Author: AnthoPak <anthopakdev@gmail.com>
+Icon: https://sini921.github.io/repo/sileodepiction/icon/pancake.png
+Name: PanCake
+
 Package: com.wkk.storeswitcher2
 Version: 1.0.5
 Architecture: iphoneos-arm64
@@ -889,6 +986,23 @@ Size: 17776
 MD5sum: 75f794260365492afd78fd80847aa659
 SHA1: 8cbbe162ee63e7a627c4cbf54a4f735d544f80f1
 SHA256: 33dff20d5492cd545c73d6a128a1b914dec3cea3f36b2cd55b57c53c0e819bbf
+Section: Tweaks
+Description: 商店内头像处点击，快速切换/删除AppStore账号。
+Author: 0xkuj
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: StoreSwitcher 2
+
+Package: com.wkk.storeswitcher2
+Version: 1.0.5
+Architecture: iphoneos-arm64e
+Maintainer: 0xkuj
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11)
+Filename: ./debs/com.wkk.storeswitcher2_1.0.5_iphoneos-arm64e.deb
+Size: 23114
+MD5sum: 8ecd1206e2edff0005ffaeeef9f11f85
+SHA1: 245ec8e1fc908d6f176d6895485d241a39dd7ef2
+SHA256: 23d457c957c5d616e4d5af0aef643b8a1b4eedf68dab882ab023d8aff7b520ca
 Section: Tweaks
 Description: 商店内头像处点击，快速切换/删除AppStore账号。
 Author: 0xkuj
@@ -1061,6 +1175,24 @@ Moderndepiction: http://cydia.nixuge.me/depiction/native/me.nixuge.networkmanage
 Name: NetworkManagerReborn
 Sileodepiction: http://cydia.nixuge.me/depiction/native/me.nixuge.networkmanager.json
 
+Package: me.tomt000.copylog
+Version: 1.7.1
+Architecture: iphoneos-arm64e
+Maintainer: TomT000
+Installed-Size: 2240
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.0xkuj.copylogfix16
+Filename: ./debs/me.tomt000.copylog_1.7.1_iphoneos-arm64e.deb
+Size: 2203904
+MD5sum: df878625792a34e42035d351821d091e
+SHA1: 10c22476b15cd93464ef7496073a9589dfdcf976
+SHA256: 977f565c6dbc9e196d62fe0f36b325c60cb49fdf71339269525ebf8eefb3075a
+Section: Tweaks
+Description: Clipboard history manager for iOS!
+Author: TomT000
+Name: CopyLog
+
 Package: netskao.cccellularrate-rootless
 Version: 1.1-1
 Architecture: iphoneos-arm64
@@ -1164,6 +1296,27 @@ Author: Dhinak G <dhinak@dhinak.net>
 Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
 Name: PreferenceLoader (Top)
 
+Package: preferenceloader.top
+Version: 2.2.7
+Architecture: iphoneos-arm64e
+Maintainer: ProcursusTeam <support@procurs.us>
+Installed-Size: 148
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Conflicts: preferenceloader, preferenceloader.rootless, preferenceloader.rootless.top
+Replaces: preferenceloader, preferenceloader.rootless, preferenceloader.rootless.top
+Provides: preferenceloader (= 2.2.6)
+Filename: ./debs/preferenceloader.top_2.2.7_iphoneos-arm64e.deb
+Size: 17514
+MD5sum: 33fe9e07fba692f7983479cea17fe2e8
+SHA1: 54dc64edea583a3495e59aa26a672532864721d8
+SHA256: 8e77fa4caa7f1ef4192d2fbb749764712c15290d1e1133e0b9c4d266a832280d
+Section: Tweaks
+Description: load preferences in style
+Author: Dhinak G <dhinak@dhinak.net>
+Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
+Name: PreferenceLoader (Top)
+
 Package: ru.domo.cocoatop64
 Version: 2.2.4-1
 Architecture: iphoneos-arm64
@@ -1210,6 +1363,27 @@ Size: 198980
 MD5sum: 600046068283e1359037e3c948a51462
 SHA1: 5a633946dee4146a4d88768b64d1e60be6d62ca3
 SHA256: f86b9ac241f23b4245de1c1a8de73f1fb9aed6fe94f120e8841f7892211a9f57
+Section: Development
+Description: Support library for tweaks
+Tag: role::developer, compatible_min::ios15.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/cephei
+Icon: https://img.chariz.cloud/icon/cephei/icon@3x.png
+Name: Cephei Tweak Support
+Support: https://hashbang.productions/support/
+
+Package: ws.hbang.common
+Version: 2.0
+Architecture: iphoneos-arm64e
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 3132
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0)
+Filename: ./debs/ws.hbang.common_2.0_iphoneos-arm64e.deb
+Size: 275970
+MD5sum: a32f6df307756e29c37566189388060e
+SHA1: 4bda4e53c860a919208c108ab527e6e0645ae9c8
+SHA256: 8430d96c8f8a4cbdbda1bffa118110caa3cdae463cf4cda7c2f98e287dce598d
 Section: Development
 Description: Support library for tweaks
 Tag: role::developer, compatible_min::ios15.0
