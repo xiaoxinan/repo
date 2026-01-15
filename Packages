@@ -688,45 +688,6 @@ Description: An awesome MobileSubstrate tweak!
 Author: Shadow-
 Name: fuckthermal
 
-Package: com.sini.dyyy
-Version: 2.2-8-build1595
-Architecture: iphoneos-arm64
-Maintainer: huami
-Installed-Size: 2004
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/com.sini.dyyy_2.2-8-build1595_iphoneos-arm64.deb
-Size: 435824
-MD5sum: 1c4d05064a9539dfc98f7bd64f2451be
-SHA1: f35e5f42f364d9860b626c8e3978cf9e3fdfd544
-SHA256: d5f323e2c12dad4b1bf4e18cc44e560e60631134fd0f3facc17da6790d4ae199
-Section: 应用破解
-Priority: optional
-Description: 仅供学习交流，请在 24 小时内自觉删除。
-Author: huami
-Icon: https://sini921.github.io/repo/sileodepiction/icon/dyyy.png
-Name: DYYY(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/dyyy/js.json
-
-Package: com.sini.dyyy
-Version: 2.2-8-build1595
-Architecture: iphoneos-arm64e
-Maintainer: huami
-Installed-Size: 2004
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/com.sini.dyyy_2.2-8-build1595_iphoneos-arm64e.deb
-Size: 670502
-MD5sum: b002c61d12762aa0ac9c0a10b2362ad5
-SHA1: 4eb944760a441005e80a0adec3ec0db626b6144d
-SHA256: 8bb08b8cea13ac4a1c35d412f07ca9a49aa66bfd873f524733860696931bade1
-Section: 应用破解
-Priority: optional
-Description: 仅供学习交流，请在 24 小时内自觉删除。
-Author: huami
-Icon: https://sini921.github.io/repo/sileodepiction/icon/dyyy.png
-Name: DYYY(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/dyyy/js.json
-
 Package: com.skypain.ccautobrightness
 Version: 1.0.0-1
 Architecture: iphoneos-arm64
@@ -974,39 +935,6 @@ Description: 全局右滑手势，已汉化。
 Author: AnthoPak <anthopakdev@gmail.com>
 Icon: https://sini921.github.io/repo/sileodepiction/icon/pancake.png
 Name: PanCake
-
-Package: com.wkk.storeswitcher2
-Version: 1.0.5
-Architecture: iphoneos-arm64
-Maintainer: 0xkuj
-Depends: firmware (>= 11)
-Filename: ./debs/com.wkk.storeswitcher2_1.0.5_iphoneos-arm64.deb
-Size: 17776
-MD5sum: 75f794260365492afd78fd80847aa659
-SHA1: 8cbbe162ee63e7a627c4cbf54a4f735d544f80f1
-SHA256: 33dff20d5492cd545c73d6a128a1b914dec3cea3f36b2cd55b57c53c0e819bbf
-Section: Tweaks
-Description: 商店内头像处点击，快速切换/删除AppStore账号。
-Author: 0xkuj
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Name: StoreSwitcher 2
-
-Package: com.wkk.storeswitcher2
-Version: 1.0.5
-Architecture: iphoneos-arm64e
-Maintainer: 0xkuj
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 11)
-Filename: ./debs/com.wkk.storeswitcher2_1.0.5_iphoneos-arm64e.deb
-Size: 23114
-MD5sum: 8ecd1206e2edff0005ffaeeef9f11f85
-SHA1: 245ec8e1fc908d6f176d6895485d241a39dd7ef2
-SHA256: 23d457c957c5d616e4d5af0aef643b8a1b4eedf68dab882ab023d8aff7b520ca
-Section: Tweaks
-Description: 商店内头像处点击，快速切换/删除AppStore账号。
-Author: 0xkuj
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Name: StoreSwitcher 2
 
 Package: com.wkk.wfhook
 Version: 1.0
