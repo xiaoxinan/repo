@@ -257,6 +257,22 @@ Depiction: https://creaturecoding.com/?page=depiction&id=libcspreferences
 Name: libCSPreferences
 Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcspreferences
 
+Package: com.dao.appaze3.cn
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: 妖刀
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.dao.appaze3.cn_1.0_iphoneos-arm64e.deb
+Size: 9222
+MD5sum: 30a01f0f66c1cfbd9cb57c6c9be497bf
+SHA1: e3397c5f29d1ce37a87d1154f4b56886317c9fc6
+SHA256: 50bdfd0f8668b0bd4023927a2f165f1d7c15f11aa3ad393cc15d94823dd879c5
+Section: 嗨-汉化
+Description: Appaze 3 简体中文包(rootless)，仅汉化常规设置部分。
+Author: 妖刀
+Name: Appaze 3 简体中文包(rootless)
+
 Package: com.dao.satella
 Version: 1.9.0-1
 Architecture: iphoneos-arm64e
@@ -688,6 +704,45 @@ Description: An awesome MobileSubstrate tweak!
 Author: Shadow-
 Name: fuckthermal
 
+Package: com.sini.dyyy
+Version: 2.2-9-build1612
+Architecture: iphoneos-arm64e
+Maintainer: huami
+Installed-Size: 2036
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.sini.dyyy_2.2-9-build1612_iphoneos-arm64e.deb
+Size: 702862
+MD5sum: 50135e3e26214419c9fd96faceb1341d
+SHA1: ee2fe55227f479aa7a9c7d42ffb35cedfbefd5eb
+SHA256: 907a3f5358cd57caace129120ac4aabdc036f1a68c9aaedd948a8fe7528d5ed9
+Section: 应用破解
+Priority: optional
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Author: huami
+Icon: https://sini921.github.io/repo/sileodepiction/icon/dyyy.png
+Name: DYYY(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/dyyy/js.json
+
+Package: com.sini.swiftgramcrack
+Version: 1.1-7
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Installed-Size: 1080
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/com.sini.swiftgramcrack_1.1-7_iphoneos-arm64e-1.deb
+Size: 573558
+MD5sum: 30fb80d4329c932978c977cdeab5b55f
+SHA1: b9ff0ea443e2c371521205b89ad18763e9077d23
+SHA256: d715bc29c96b57b3b408cee1b68eccefb2e0187dea85bc5386d452b78976578c
+Section: 应用破解
+Description: Swiftgram Pro. 附加解除下载保护/解除截图保护/去除官方广告, 支持当前最新版12.2(解锁Pro首次登录需重启一次应用)
+Author: Netskao
+Icon: https://sini921.github.io/repo/sileodepiction/icon/swiftgramcrack.png
+Name: Swiftgram Crack(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/swiftgramcrack/js.json
+
 Package: com.skypain.ccautobrightness
 Version: 1.0.0-1
 Architecture: iphoneos-arm64
@@ -936,6 +991,24 @@ Author: AnthoPak <anthopakdev@gmail.com>
 Icon: https://sini921.github.io/repo/sileodepiction/icon/pancake.png
 Name: PanCake
 
+Package: com.wkk.storeswitcher2
+Version: 1.0.7
+Architecture: iphoneos-arm64e
+Maintainer: 苏苏
+Installed-Size: 212
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11), mobilesubstrate
+Filename: ./debs/com.wkk.storeswitcher2_1.0.7_iphoneos-arm64e.deb
+Size: 20772
+MD5sum: b632c2702cca55aeeacc6affaf6449af
+SHA1: 293f63a02c0315ea171e07b09180349660463bc8
+SHA256: fa46ca5e1b78a0338559d3161ad53318eedc10f478c4e890533750e55836168f
+Section: Tweaks
+Description: App Store 账户快速切换，优化了账号切换逻辑，已汉化。
+Author: 苏苏
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: StoreSwitcher2
+
 Package: com.wkk.wfhook
 Version: 1.0
 Architecture: iphoneos-arm64e
@@ -971,6 +1044,23 @@ Description: 去掉可见的所有广告，版本：7.0.8，接大量冷门热�
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/10/23/318813ae8987a6ff33c7f64b318b9a70.png
 Name: 威锋NoAds
+
+Package: com.xx.dyhook
+Version: 2.3.5-6
+Architecture: iphoneos-arm64e
+Maintainer: 𝙓
+Installed-Size: 11708
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.dyhook_2.3.5-6_iphoneos-arm64e-2.deb
+Size: 10535390
+MD5sum: c3b5ecc9e0ac205747a5103e793e05f3
+SHA1: 8019665cd80994e71eff7eb2dd886d0ff86b7c75
+SHA256: 12de435e72a9fc730f98f8f23824b00ba96f6a6723c525798989ce4214f001fe
+Section: Tweaks
+Description: 自用
+Author: 𝙓
+Name: 抖音图层
 
 Package: com.xybp888.noapplemobilerepair
 Version: 0.0.1-103
