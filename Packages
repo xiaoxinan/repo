@@ -31,6 +31,40 @@ Depiction: https://repo.lenglengyu.top/packageInfo/fixset.html
 Name: FixSet
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/fixsetsileo
 
+Package: cn.zqbb.appdata
+Version: 1.3.6-9
+Architecture: iphoneos-arm64e
+Maintainer: zqbb
+Installed-Size: 356
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.fouadraheb.appdata, netskao.appdata-rootless
+Filename: ./debs/cn.zqbb.appdata_1.3.6-9_iphoneos-arm64e.deb
+Size: 75944
+MD5sum: 737841f29d7f48f6aedd30db1faccd1a
+SHA1: c106df990a18587dff9b926b177be1b8fd2d5e39
+SHA256: cfb5fd2a842847987294fc67809d67db8824087291d1ab47834bd5cfe9d4264a
+Section: Tweaks
+Description: View & Manage Applications Data from your Home Screen
+Author: Fouad Raheb <support@fouadraheb.com>
+Name: Hello AppData
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.appdata
+
+Package: cn.zqbb.editpre
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: zqbb
+Installed-Size: 144
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/cn.zqbb.editpre_0.0.1_iphoneos-arm64e.deb
+Size: 34248
+MD5sum: e9a349fd84a6d747211c4bb97ad81f25
+SHA1: 55bbcd42d04279ca1e53b6674402458272c0b642
+SHA256: 0a542d87b9202d3c18d2354d909b77b5d36c2ee63f7faaafc5449cec8c91da72
+Section: 插件
+Description: An awesome application!
+Author: zqbb
+Name: editPre
+
 Package: com.0xkuj.safarix
 Version: 1.9.9.1
 Architecture: iphoneos-arm64
@@ -257,6 +291,23 @@ Depiction: https://creaturecoding.com/?page=depiction&id=libcspreferences
 Name: libCSPreferences
 Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcspreferences
 
+Package: com.dao.bhtwitter
+Version: 4.4-5
+Architecture: iphoneos-arm64e
+Maintainer: Bandar Alruwaili
+Depends: mobilesubstrate, ws.hbang.common
+Conflicts: com.bandarhl.rootless.bhtwitter, com.bandarhl.bhtwitter, com.daodao.rootless.bhtwitter, com.hk.BHTwitter.cn
+Filename: ./debs/com.dao.bhtwitter_4.4-5_iphoneos-arm64e.deb
+Size: 6710988
+MD5sum: 776b0b68a1414e0d9e441024a77f3fb4
+SHA1: 828d25fcd203ae6e83cc7efddbc3b9f2f68390cc
+SHA256: f52dc410bcb17491b25c7a1be0a20d023ce1c9ca05cc7e596bc5a1feaa5f312e
+Section: 嗨-工具
+Description: BHTwitter中文修复优化版，推特的综合功能性插件，插件选项位于推特设置顶部。
+Author: Bandar Alruwaili
+Name: BHTwitter 中文版(RootHide)
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/bht/js.json
+
 Package: com.dao.satella
 Version: 1.9.0-1
 Architecture: iphoneos-arm64e
@@ -274,6 +325,22 @@ Description: 牛X的应用内购买破解器，已包含简体中文包。
 Author: Paisseon
 Name: Satella 中文版(rootless)
 Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/satella/js.json
+
+Package: com.dao.ytlite
+Version: 5.2b4
+Architecture: iphoneos-arm64e
+Maintainer: dvntm
+Depends: mobilesubstrate
+Conflicts: com.dvntm.ytlite
+Filename: ./debs/com.dao.ytlite_5.2b4_iphoneos-arm64e.deb
+Size: 6420680
+MD5sum: 8a05b9a3ada72838135d93dadb1211b2
+SHA1: 14c42200e57f7fb1fd65a7073c22bc2fc54f44d8
+SHA256: 282a24b4b188e58444fb178073641c26e60d6a949ddfb91b763a9be5a60c57a8
+Section: 嗨-工具
+Description: 综合性 YouTube 多功能插件，可去广告、下载、调节播放器等超多功能；插件选项位于油管“设置—YouTubePlus”，更多功能请自行启用。
+Author: dvntm
+Name: YTLite(RootHide)
 
 Package: com.exile90.icleanerpro
 Version: 7.10.0
@@ -618,6 +685,25 @@ Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.p2k
 Icon: https://s1.imagehub.cc/images/2025/01/22/da95cacf3e9dbdaec0311e6a00989e86.png
 Name: TapticBoard
 
+Package: com.ps.letmeblock
+Version: 1.3.0
+Architecture: iphoneos-arm64e
+Maintainer: PoomSmart
+Installed-Size: 140
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 9.0), com.opa334.libsandy
+Filename: ./debs/com.ps.letmeblock_1.3.0_iphoneos-arm64e.deb
+Size: 8504
+MD5sum: b49bf187c1571be492b1865dcffada90
+SHA1: 0359ea61e1c70b7b06d993363419f5533d6982ff
+SHA256: ab524f36cf5f473973d5b9f28f1c65a5c3f367f9a2deed630e5760ae500c6daa
+Section: Tweaks
+Description: Make mDNSResponder care more about /etc/hosts
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/letmeblock.html
+Name: LetMeBlock
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/letmeblock.json
+
 Package: com.ps.smoothcursorios13
 Version: 0.0.1
 Architecture: iphoneos-arm64e
@@ -688,6 +774,42 @@ Author: huami
 Icon: https://sini921.github.io/repo/sileodepiction/icon/dyyy.png
 Name: DYYY(rootless)
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/dyyy/js.json
+
+Package: com.sini921.folderpro
+Version: 0.0.1-24
+Architecture: iphoneos-arm64e
+Maintainer: SINI
+Installed-Size: 644
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.sini921.folderpro_0.0.1-24_iphoneos-arm64e.deb
+Size: 94258
+MD5sum: a2c36148bd906b5483d2790de0fd2b76
+SHA1: bba170ab303f257ce4e56b21f1f34d71ef93ed3e
+SHA256: 07b721441ee88078bf28be900e9471894f05948bdb55560b5150563f4120024b
+Section: 越狱插件
+Description: 文件夹简单优化
+Author: SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/folderpro.png
+Name: FolderPro(roothide)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/folderpro/js.json
+
+Package: com.sini921.zoomanimation
+Version: 0.0.1-13
+Architecture: iphoneos-arm64e
+Maintainer: SINI
+Installed-Size: 472
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.sini921.zoomanimation_0.0.1-13_iphoneos-arm64e.deb
+Size: 58364
+MD5sum: 1c05d63c0de09a6c0a2ab4b35cda6472
+SHA1: 517eca23ec89285819ab5273e03c06df08fc4b5b
+SHA256: 910def24e7bcfa271fd4deef1bf7424a3550a81efe48c4a79ccc5351eef2b265
+Section: 越狱插件
+Description: 桌面动画，可选动画样式，调节动画幅度。
+Author: SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/zoomanimation.png
+Name: ZoomAnimation(roothide)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/zoomanimation/js.json
 
 Package: com.skypain.ccautobrightness
 Version: 1.0.0-1
@@ -903,6 +1025,43 @@ Author: SuSu
 Icon: https://s1.imagehub.cc/images/2025/12/13/f934f840753cc376919f03e706ab50ab.png
 Name: Picta
 
+Package: com.wkk.WCPulse
+Version: 1.3-6
+Architecture: iphoneos-arm64e
+Maintainer: huami
+Installed-Size: 1348
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.wkk.wcpulse_1.3-6_iphoneos-arm64e.deb
+Size: 509140
+MD5sum: e4b9785183a36b7ec76456d5006a3c8a
+SHA1: e86e83d76ae3d5033a0c00f74e015251321abecf
+SHA256: e5b5dc2d717fc13e6449467187dd3af36ce47cbf890e6a6333e003fb4f7a0940
+Section: 微信插件
+Description: WCPulse
+Author: huami
+Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
+Name: WCPulse
+
+Package: com.wkk.WCRefine
+Version: 1.2-1
+Architecture: iphoneos-arm64e
+Maintainer: 热心网友
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./debs/com.wkk.wcrefine_1.2-1_iphoneos-arm64e.deb
+Size: 3860712
+MD5sum: da5925e41eb65cd3e17c5582c184fdb5
+SHA1: 5edb82515d129ae346e1a1c92e830534bd6b1f51
+SHA256: 0732db821b47efdf53bb0728857c030b6083f4f3d87a776f393e1775eb48e2aa
+Section: 微信插件
+Priority: optional
+Description: 微信优化的重制版本，WCRefine基于微信8.0.64+版本制作。
+Author: 热心网友
+Dev: 君临
+Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
+Name: WCRefine
+
 Package: com.wkk.bilibilihook
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -991,6 +1150,42 @@ Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/10/23/318813ae8987a6ff33c7f64b318b9a70.png
 Name: 威锋NoAds
 
+Package: com.wkk.xchshhook
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.wkk.xchshhook_1.1_iphoneos-arm64e.deb
+Size: 5270
+MD5sum: b1f389140ba5aac73ad4d6466b34ce14
+SHA1: 4d21f15bc2aaf8d9390383e5ea800527673ef43f
+SHA256: 73377bcb57667c46f9f230881d3ecf05b49f2a0661f6d33566d36624d3fd6405
+Section: 去广告
+Description: 极致的丝滑去开屏广告，版本：3.11.1，接大量冷门热门app定制去广告/去更新提示/精简app等业务。联系qq：1772773799
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/11/14/cdf64e516d0fb0f51be2a24f4385f2cd.png
+Name: 小蚕惠生活NoAds
+
+Package: com.wkk.xianyuhook
+Version: 1.1-2
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 400
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.wkk.xianyuhook_1.1-2_iphoneos-arm64e.deb
+Size: 6928
+MD5sum: 47d580d59d1e2fe884aaafadaec5b9ef
+SHA1: ddccd64eeaa6da7db2883d3e009a715275a97eb0
+SHA256: 8240a17e0db4b9b56cffa9971b8407c1e380217183d2756030c8c433ef344c12
+Section: 去广告
+Description: 去开屏广告，测试版本：7.24.10，接大量冷门热门app定制去广告/去更新提示/精简app等业务。联系qq：1772773799
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/02/10/a5283dbf3147309ebb76288c6e395ab4.png
+Name: 闲鱼NoAds
+
 Package: com.xx.dyhook
 Version: 2.3.5-6
 Architecture: iphoneos-arm64e
@@ -1045,6 +1240,23 @@ Depiction: https://apt.htv123.com/view/159
 Name: No Apple MobileRepair
 Sileodepiction: https://apt.htv123.com/sileo/159
 
+Package: com.yourepo.0xash.ccadsbegoneroothide
+Version: 1.5
+Architecture: iphoneos-arm64e
+Maintainer: 0xkuj <krylov0@outlook.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.opa334.ccsupport, com.ps.letmeblock (>= 1.3.0)
+Conflicts: com.0xkuj.ccadsbegone
+Filename: ./debs/com.yourepo.0xash.ccadsbegoneroothide_1.5_iphoneos-arm64e.deb
+Size: 799852
+MD5sum: d53cf6b95ff5d0694a149517f2ab2dbd
+SHA1: 84ed5c2c8f5eb92b0552fcc8205651746c23c658
+SHA256: 11cd1568422efe86c0e810ea5de8a7d5ebff6e19a044b29ea23144d7f2bae0ca
+Section: Tweaks
+Description: CC Toggle to block ads on demand!
+Author: 0xkuj <krylov0@outlook.com>
+Name: CCAdsBeGone (roothide)
+
 Package: com.yourepo.0xash.patch
 Version: 4.2.0
 Architecture: iphoneos-arm64e
@@ -1077,6 +1289,24 @@ Description: 全屏截图按钮增加(保存至相册)功能,超过7个按钮时
 Author: zqbb
 Name: Hello Snapper3
 Sileodepiction: https://rootless.002599.xyz/web/com.zqbb.savephotos
+
+Package: dev.theos.orion14
+Version: 1.0.1-3+debug
+Architecture: iphoneos-arm64e
+Maintainer: Theos Team <theos@kabiroberai.com>
+Installed-Size: 1220
+Depends: firmware (>= 14.0), firmware (<< 18.0), mobilesubstrate (>= 0.9.5000)
+Provides: dev.theos.orion (= 1.0.1-3+debug)
+Filename: ./debs/dev.theos.orion14_1.0.1-3+debug_iphoneos-arm64e.deb
+Size: 181106
+MD5sum: 86b1f3a313d1d4f4bbf9aa50ce99c274
+SHA1: 0fb7e6b04357773e9c9250c7156a5fdc1b96f4fd
+SHA256: a2de49957df5c5211ffb7e522ee9e95c020c123979ff4faeb43c70e7c6607400
+Section: System
+Description: Runtime for tweaks built using Orion and Swift
+Tag: role::developer
+Author: Theos Team <theos@kabiroberai.com>
+Name: Orion (iOS 14-17)
 
 Package: ellekit
 Version: 1.1.3-1
