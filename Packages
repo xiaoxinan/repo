@@ -689,25 +689,6 @@ Icon: https://sini921.github.io/repo/sileodepiction/icon/dyyy.png
 Name: DYYY(rootless)
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/dyyy/js.json
 
-Package: com.sini.swiftgramcrack
-Version: 1.1-7
-Architecture: iphoneos-arm64e
-Maintainer: Nets
-Installed-Size: 1080
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 13.0), mobilesubstrate
-Filename: ./debs/com.sini.swiftgramcrack_1.1-7_iphoneos-arm64e-1.deb
-Size: 573558
-MD5sum: 30fb80d4329c932978c977cdeab5b55f
-SHA1: b9ff0ea443e2c371521205b89ad18763e9077d23
-SHA256: d715bc29c96b57b3b408cee1b68eccefb2e0187dea85bc5386d452b78976578c
-Section: 应用破解
-Description: Swiftgram Pro. 附加解除下载保护/解除截图保护/去除官方广告, 支持当前最新版12.2(解锁Pro首次登录需重启一次应用)
-Author: Netskao
-Icon: https://sini921.github.io/repo/sileodepiction/icon/swiftgramcrack.png
-Name: Swiftgram Crack(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/swiftgramcrack/js.json
-
 Package: com.skypain.ccautobrightness
 Version: 1.0.0-1
 Architecture: iphoneos-arm64
