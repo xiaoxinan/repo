@@ -775,6 +775,25 @@ Icon: https://sini921.github.io/repo/sileodepiction/icon/dyyy.png
 Name: DYYY(rootless)
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/dyyy/js.json
 
+Package: com.sini921.appstoretroller
+Version: 0.1.2-5
+Architecture: iphoneos-arm64e
+Maintainer: Mineek & Nathan & SINI
+Installed-Size: 568
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.sini921.appstoretroller_0.1.2-5_iphoneos-arm64e.deb
+Size: 62060
+MD5sum: ac4b0c9a96b406161fc75b56765b2e62
+SHA1: 61216ed62d3e79fe8102da7e61ed96867aadd562
+SHA256: 416061a0341e5f697920bf7fcff431d34051f84195e09ac1ddeda41cac4b7872
+Section: 越狱插件
+Description: 可以安装苹果商店中提示「需要iOSXX或更高版本」的应用，入库了以后可以安装兼容你系统的版本(如果有的话)，基于开源汉化编译
+Author: Mineek & Nathan & SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/appstoretroller.png
+Name: AppStoreTroller(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/appstoretroller/js.json
+
 Package: com.sini921.folderpro
 Version: 0.0.1-24
 Architecture: iphoneos-arm64e
@@ -791,6 +810,25 @@ Description: 文件夹简单优化
 Author: SINI
 Icon: https://sini921.github.io/repo/sileodepiction/icon/folderpro.png
 Name: FolderPro(roothide)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/folderpro/js.json
+
+Package: com.sini921.folderpro
+Version: 0.0.1-27
+Architecture: iphoneos-arm64e
+Maintainer: SINI
+Installed-Size: 660
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.sini921.folderpro_0.0.1-27_iphoneos-arm64e.deb
+Size: 131432
+MD5sum: d72db5ad9911b46d9467585859e732b1
+SHA1: cf8d409d3ea994f1adc2bd7f2e52e7d0872efb2f
+SHA256: 34d83927a4852bf89f28edc1da76e39987024352a7dbf62486567033ef7eefab
+Section: 越狱插件
+Description: 文件夹简单优化
+Author: SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/folderpro.png
+Name: FolderPro(rootless)
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/folderpro/js.json
 
 Package: com.sini921.zoomanimation
