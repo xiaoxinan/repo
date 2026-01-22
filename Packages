@@ -61,7 +61,7 @@ MD5sum: e9a349fd84a6d747211c4bb97ad81f25
 SHA1: 55bbcd42d04279ca1e53b6674402458272c0b642
 SHA256: 0a542d87b9202d3c18d2354d909b77b5d36c2ee63f7faaafc5449cec8c91da72
 Section: 插件
-Description: 隐藏设置插件项
+Description: An awesome application!
 Author: zqbb
 Name: editPre
 
@@ -145,7 +145,7 @@ MD5sum: fa4e6ec9b0d3507fd61fe845b7b666d0
 SHA1: 4451b783525d711f2c8084a846399182abac094d
 SHA256: ca3e876b6170fafbc0d491bc79f3788e42dd770e5f50c79b145854a32e19a3ee
 Section: Tweaks
-Description: 禁音图标
+Description: Just a single mute icon on the status bar of iOS.
 Author: 82Flex <82flex@gmail.com>
 Name: Single Mute
 
@@ -162,7 +162,7 @@ MD5sum: c4c7bfe4745099a798a7a3b527257d02
 SHA1: d16f036d89d6f980debb754fb1ce7b8ef3c8a070
 SHA256: 6d7d5dd93a02711080648d2efd7faccc33e26aed204180148127867ab7677869
 Section: Tweaks
-Description: 录屏轨迹
+Description: Display your touch interactions!
 Author: Lessica <82flex@gmail.com>
 Name: Touch-Viz
 
@@ -430,7 +430,7 @@ MD5sum: 2392f4ee4c5235d5e343fb5897ee43ea
 SHA1: b531e8c9e41333c66c4e01a3ebde5632a72a2ebc
 SHA256: 03caee9d9574c5ca40831d5d7b1ba7cb77f2187b265fb094a3f927d5e113e63b
 Section: Tweaks
-Description: 区域截图
+Description: Pin screenshots on the screen.
 Author: Jonathan Winger-lang
 Name: Snapper 3
 
@@ -446,7 +446,7 @@ MD5sum: fbb6d236e085677bfda098ff8195c28a
 SHA1: a4afc439a8fd18de13eea4f9afb77b435f790a7f
 SHA256: a2c099cc3abe8268c28052098856c90fdfe32878f53305a3cbc90942f573d301
 Section: Tweaks
-Description: 一个锤子
+Description: Control your text or translate as you wish.
 Author: lclrc(SquidForce)
 Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
 Name: Hammer It
@@ -464,7 +464,7 @@ MD5sum: f01a773bee71fc5cea290deaaba46c68
 SHA1: c9163e0d2aac91f739e206b07d4049e7a2399c32
 SHA256: 16bbddc86f1b224bdcc0fd4b19c679e72524021cf4a15738748501a440e8c467
 Section: Tweaks
-Description: 一个锤子
+Description: Control your text or translate as you wish.
 Author: lclrc(SquidForce)
 Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
 Name: Hammer It
@@ -516,7 +516,7 @@ MD5sum: cd8f6b0b6b7bc8aca269ca825b805320
 SHA1: 4661d8818a7636ed91b07e4af983865b37ce5125
 SHA256: 859aa6820109a91c13e8108578b86c6d57dd9661571c8a1afd41ddb69965dc8d
 Section: Tweaks
-Description: 鱿鱼手势ProMax
+Description: Gestures
 Author: SquidForce
 Name: SquidGesture Pro
 
@@ -532,7 +532,7 @@ MD5sum: 0a30fdaba319fb8b77f626b2552ebf0d
 SHA1: 1f00f44e2ad3518325ed5ca430ac4502bd26d9d7
 SHA256: fc0f1648a8d3ceaac7ecbd1ae129ec1a5bec4a2421f946cd13b263c1c492d4b1
 Section: Netskao-Tweaks
-Description: 应用降级
+Description: View & Manage Applications Data from your Home Screen
 Author: Fouad Raheb
 Name: AppData
 Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.appdata.json
@@ -550,7 +550,7 @@ MD5sum: 0d4db30db20c2bcd7e972354af0d934f
 SHA1: f1b0ac9d1b4c56d9da7f25bd5aedd56ddd424c6c
 SHA256: e50e895dd749b64b8bf913ff14a14aeb78b4493594cacdac2bf373fd4d0c2018
 Section: Netskao-Tweaks
-Description: 应用降级
+Description: View & Manage Applications Data from your Home Screen
 Author: Fouad Raheb
 Name: AppData
 Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.appdata.json
@@ -769,7 +769,7 @@ SHA1: ee2fe55227f479aa7a9c7d42ffb35cedfbefd5eb
 SHA256: 907a3f5358cd57caace129120ac4aabdc036f1a68c9aaedd948a8fe7528d5ed9
 Section: 应用破解
 Priority: optional
-Description: 抖音插件
+Description: 仅供学习交流，请在 24 小时内自觉删除。
 Author: huami
 Icon: https://sini921.github.io/repo/sileodepiction/icon/dyyy.png
 Name: DYYY(rootless)
@@ -788,7 +788,7 @@ MD5sum: ac4b0c9a96b406161fc75b56765b2e62
 SHA1: 61216ed62d3e79fe8102da7e61ed96867aadd562
 SHA256: 416061a0341e5f697920bf7fcff431d34051f84195e09ac1ddeda41cac4b7872
 Section: 越狱插件
-Description: 可以安装苹果商店中提示「需要iOSXX或更高版本」的应用，入库了以后可以安装兼容你系统的版本
+Description: 可以安装苹果商店中提示「需要iOSXX或更高版本」的应用，入库了以后可以安装兼容你系统的版本(如果有的话)，基于开源汉化编译
 Author: Mineek & Nathan & SINI
 Icon: https://sini921.github.io/repo/sileodepiction/icon/appstoretroller.png
 Name: AppStoreTroller(rootless)
@@ -903,7 +903,7 @@ MD5sum: cb1a69eaa2fb5837150fd178fb2e648d
 SHA1: bcedde866270c72fcec5508dadeb1faec1357095
 SHA256: 39f9414fcad5a848f84d80eb64a7337863c081211c199f07683bc4c79d740d09
 Section: Tweaks
-Description: 剪切板
+Description: Your Copy Vault, Your Pasteboard
 Author: SquidForce
 Name: CopyVault
 
@@ -919,7 +919,7 @@ MD5sum: 7cae293ce7df6b0b9c86ad37a5e8b1e6
 SHA1: b87ba4beccb538000ee9898f2bb8ea2ec35b507a
 SHA256: dcd22a97a3f9712fa0d3b5c4470edc33148ed08f0f458be3801c4a34f0dab52b
 Section: Tweaks
-Description: Snapper3扩展插件
+Description: including iMark and Piiico for now
 Author: SquidForce(乌贼力量)
 Icon: https://s1.imagehub.cc/images/2025/01/01/6649d33bb5c1426f31fa0d05bddce392.png
 Name: Plugins For Snapper3
@@ -937,7 +937,7 @@ MD5sum: cbaf03998b51ee6f6618dff714788e09
 SHA1: 03bcd8299c56fa258ac9074000c74dabfe8115a8
 SHA256: 9733dccf8dd78e658ae7bb48dc0add1006c7d1552fcfe4d38d564b6a8051d5b1
 Section: Tweaks
-Description: Snapper3扩展插件
+Description: including iMark and Piiico for now
 Author: SquidForce(乌贼力量)
 Icon: https://s1.imagehub.cc/images/2025/01/01/6649d33bb5c1426f31fa0d05bddce392.png
 Name: Plugins For Snapper3
@@ -955,7 +955,7 @@ MD5sum: bb7e407a78369109b1f735f25db9c4c9
 SHA1: efd86115cbf4d9d0d35212e21f0fcd1eb87ee818
 SHA256: 505f9fcfec0395d9c4cb97699f68d79281d82f9b62685769311d984b70a2ff9b
 Section: Tweaks
-Description: 鱿鱼键盘
+Description: Extend your keyboard to be more POWERFULL!
 Author: SquidForce
 Name: SquidExtender
 
@@ -1004,7 +1004,7 @@ MD5sum: cbab402c772d58a69317dd19048af8be
 SHA1: 9937afc7fc7d20b618ad9a5033eaf51148ed5404
 SHA256: f4b1641bc35f6c742a87664b65ec331f520dc741518ef701ea78b85d755899ca
 Section: Tweaks
-Description: Old版本
+Description: 分屏，不必太复杂，一切从简即可。
 Author: sunshinesong
 Name: split-view-pro
 Ts: sp-sss
@@ -1022,7 +1022,7 @@ MD5sum: 6d6e8e563d11a86af52952ff534a61ae
 SHA1: b2d3862cbc54f56f4622bc36f6a03dea9710c8bb
 SHA256: f325bb654f0701d9dd964fb95ffbc699054971c0d94dfda4b294e5d1fa56ea5a
 Section: Tweaks
-Description: Old版本
+Description: 分屏，不必太复杂，一切从简即可。
 Author: sunshinesong
 Name: split-view-pro
 Ts: sp-sss
@@ -1040,7 +1040,7 @@ MD5sum: 0ef760b0ab97691e9adbf9909de5a5bd
 SHA1: 6881913acde5d74df6b28ccc7a1c1d1d42a84088
 SHA256: 5a3c91af17e985fe757f1a8c5403b8427ebb841b0173296eebba200a4e2d7fa7
 Section: Tweaks
-Description: 相册优化
+Description: 删除原生相册无用的窗口
 Author: 苏苏
 Icon: https://www.susuboy.cn/images/photos.png
 Name: SuPhotos
@@ -1291,7 +1291,7 @@ MD5sum: d53cf6b95ff5d0694a149517f2ab2dbd
 SHA1: 84ed5c2c8f5eb92b0552fcc8205651746c23c658
 SHA256: 11cd1568422efe86c0e810ea5de8a7d5ebff6e19a044b29ea23144d7f2bae0ca
 Section: Tweaks
-Description: Host去广告，配合源内LetMeBlock
+Description: CC Toggle to block ads on demand!
 Author: 0xkuj <krylov0@outlook.com>
 Name: CCAdsBeGone (roothide)
 
@@ -1377,7 +1377,7 @@ MD5sum: 402214901aca2e45c30556ceb235c6a1
 SHA1: 2f986934a77a3a97876604913cff4fef84ba6f82
 SHA256: 98cc27a29834f7579b50ac0c60242b150dae0f8a29d1944a31a636614640544a
 Section: Control Center (Modules)
-Description: 快捷切换控制中心2G/3G/4G/5G
+Description: Force 2G/3G/4G/5G connection from the Control Center
 Author: NoisyFlake, Nixuge
 Depiction: http://cydia.nixuge.me/depiction/web/me.nixuge.networkmanager.html
 Icon: http://cydia.nixuge.me/assets/me.nixuge.networkmanager/icon.png
@@ -1398,7 +1398,7 @@ MD5sum: e8a2a9424d84434d8c3cd6607a115358
 SHA1: 1cf551db2abda609026112ff31fe0654e180bfe7
 SHA256: 1004909a30435e0c618306663fd72a5f91a6da9edd742e9734770bfc45087c64
 Section: Control Center (Modules)
-Description: 快捷切换控制中心2G/3G/4G/5G
+Description: Force 2G/3G/4G/5G connection from the Control Center
 Author: NoisyFlake, Nixuge
 Depiction: http://cydia.nixuge.me/depiction/web/me.nixuge.networkmanager.html
 Icon: http://cydia.nixuge.me/assets/me.nixuge.networkmanager/icon.png
@@ -1420,7 +1420,7 @@ MD5sum: df878625792a34e42035d351821d091e
 SHA1: 10c22476b15cd93464ef7496073a9589dfdcf976
 SHA256: 977f565c6dbc9e196d62fe0f36b325c60cb49fdf71339269525ebf8eefb3075a
 Section: Tweaks
-Description: 剪切板
+Description: Clipboard history manager for iOS!
 Author: TomT000
 Name: CopyLog
 
@@ -1549,7 +1549,7 @@ Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.
 Name: PreferenceLoader (Top)
 
 Package: ru.domo.cocoatop64
-Version: 2.2.4-3
+Version: 2.2.4-1
 Architecture: iphoneos-arm64
 Maintainer: Ash
 Depends: firmware (>= 15.0)
@@ -1566,7 +1566,7 @@ Icon: https://siieo.github.io/sileodepictions/CocoaTop/icon.png
 Name: CocoaTop64
 
 Package: ru.domo.cocoatop64
-Version: 2.2.4-3
+Version: 2.2.4-1
 Architecture: iphoneos-arm64e
 Maintainer: Ash
 Pre-Depends: rootless-compat(>= 0.9)
