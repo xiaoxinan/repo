@@ -723,23 +723,6 @@ Author: PoomSmart
 Icon: https://www.susubaby.top/images/smoothcursor.png
 Name: SmoothCursor (iOS 13+)
 
-Package: com.qimiao.WCRefine
-Version: 1.1-9
-Architecture: iphoneos-arm64e
-Maintainer: wkk
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/com.qimiao.WCRefine_1.1-9_iphoneos-arm64e.deb
-Size: 3685714
-MD5sum: 9261f4da57d32a6978df61c82d40ac34
-SHA1: e53eb78119f8e47c4fe40412f0b16aeb43d1f8bc
-SHA256: 72c31c245b10d86620b39c858b843dc479c3442343f6fa7b8c32194d3fc6dbfe
-Section: 微信插件
-Description: 微信优化的重制版本，WCRefine基于微信8.0.64版本制作。
-Author: 热心网友
-Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
-Name: WCRefine
-
 Package: com.shadow.fuckthermal
 Version: 1.2-38
 Architecture: iphoneos-arm64
