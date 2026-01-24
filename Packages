@@ -777,23 +777,24 @@ Icon: https://sini921.github.io/repo/sileodepiction/icon/appstoretroller.png
 Name: AppStoreTroller(rootless)
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/appstoretroller/js.json
 
-Package: com.sini921.folderpro
-Version: 0.0.1-24
+Package: com.sini921.cursorpro
+Version: 0.0.1-1
 Architecture: iphoneos-arm64e
 Maintainer: SINI
-Installed-Size: 644
+Installed-Size: 452
+Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.sini921.folderpro_0.0.1-24_iphoneos-arm64e.deb
-Size: 94258
-MD5sum: a2c36148bd906b5483d2790de0fd2b76
-SHA1: bba170ab303f257ce4e56b21f1f34d71ef93ed3e
-SHA256: 07b721441ee88078bf28be900e9471894f05948bdb55560b5150563f4120024b
+Filename: ./debs/com.sini921.cursorpro_0.0.1-1_iphoneos-arm64e.deb
+Size: 64846
+MD5sum: b3189330f4137e1cf71cd82c626ec243
+SHA1: 7654c5bdc8fc2a1153c8c08e63b7165723463df7
+SHA256: fa87721c3695fa79137685a8d2a9a0d5feb1231dd4a1b098ed62143bd6487a2b
 Section: 越狱插件
-Description: 文件夹简单优化
+Description: 光标简单优化
 Author: SINI
-Icon: https://sini921.github.io/repo/sileodepiction/icon/folderpro.png
-Name: FolderPro(roothide)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/folderpro/js.json
+Icon: https://sini921.github.io/repo/sileodepiction/icon/cursorpro.png
+Name: CursorPro(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/cursorpro/js.json
 
 Package: com.sini921.folderpro
 Version: 0.0.1-27
