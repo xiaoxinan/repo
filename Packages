@@ -14,6 +14,22 @@ Description: An awesome MobileSubstrate tweak!
 Author: aodmin
 Name: DeviceMonitor
 
+Package: apt.llld.systeminfo
+Version: 2.7.2-3
+Architecture: iphoneos-arm64e
+Maintainer: 来了老弟
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/apt.llld.systeminfo_2.7.2-3_iphoneos-arm64e(2).deb
+Size: 375624
+MD5sum: 0b541578ba7a3e7e074386d18c9c593c
+SHA1: 0c4674fc84c15ae69dcf051c4024f439a3ea0d9c
+SHA256: 6878a17f4b96aa1a6773c65591e4e9b730ec3f2ea36762e804aec1b07f73ad1e
+Section: rootless修复插件
+Description: Display all system information of iOS。显示 iOS 所有系统信息，不用装Legacy arm64e Support_________仅测试，有问题请卸载
+Author: ARX8x 来了老弟
+Name: System Info 系统信息-rootless
+
 Package: cn.Bswbw.fixset
 Version: 1.1
 Architecture: iphoneos-arm64e
@@ -789,6 +805,25 @@ Size: 64846
 MD5sum: b3189330f4137e1cf71cd82c626ec243
 SHA1: 7654c5bdc8fc2a1153c8c08e63b7165723463df7
 SHA256: fa87721c3695fa79137685a8d2a9a0d5feb1231dd4a1b098ed62143bd6487a2b
+Section: 越狱插件
+Description: 光标简单优化
+Author: SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/cursorpro.png
+Name: CursorPro(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/cursorpro/js.json
+
+Package: com.sini921.cursorpro
+Version: 0.0.1-2
+Architecture: iphoneos-arm64e
+Maintainer: SINI
+Installed-Size: 456
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.sini921.cursorpro_0.0.1-2_iphoneos-arm64e.deb
+Size: 65976
+MD5sum: a8edb88040ceb10cfaa4b606f986f2d9
+SHA1: c019f56fb62519568510ddb1fafae17b7a926fd8
+SHA256: dc6ac5a5f6efea1f3e2e7da826ba2db421ec8d19b8e80ffe9ae0df7807365aff
 Section: 越狱插件
 Description: 光标简单优化
 Author: SINI
