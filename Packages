@@ -774,6 +774,25 @@ Icon: https://sini921.github.io/repo/sileodepiction/icon/dyyy.png
 Name: DYYY(rootless)
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/dyyy/js.json
 
+Package: com.sini.dyyy
+Version: 2.2-9-build1619
+Architecture: iphoneos-arm64e
+Maintainer: huami
+Installed-Size: 2036
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.sini.dyyy_2.2-9-build1619_iphoneos-arm64e.deb
+Size: 438020
+MD5sum: d060bcfe3ab7af1226a2dc17a484aed7
+SHA1: be6dc59467f2d028dfbce66809f092748a5ebf7c
+SHA256: 555a3495c678c86f4c5f1c4d81fa744478a5bcb4c8b1826b9df317b3cdcf9efc
+Section: 应用破解
+Priority: optional
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Author: huami
+Icon: https://sini921.github.io/repo/sileodepiction/icon/dyyy.png
+Name: DYYY(roothide)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/dyyy/js.json
+
 Package: com.sini921.appstoretroller
 Version: 0.1.2-5
 Architecture: iphoneos-arm64e
@@ -1083,17 +1102,17 @@ Icon: https://s1.imagehub.cc/images/2025/12/13/f934f840753cc376919f03e706ab50ab.
 Name: Picta
 
 Package: com.wkk.WCPulse
-Version: 1.3-6
+Version: 1.3-8
 Architecture: iphoneos-arm64e
 Maintainer: huami
 Installed-Size: 1348
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.wkk.wcpulse_1.3-6_iphoneos-arm64e.deb
-Size: 509140
-MD5sum: e4b9785183a36b7ec76456d5006a3c8a
-SHA1: e86e83d76ae3d5033a0c00f74e015251321abecf
-SHA256: e5b5dc2d717fc13e6449467187dd3af36ce47cbf890e6a6333e003fb4f7a0940
+Filename: ./debs/com.wkk.wcpulse_1.3-8_iphoneos-arm64e.deb
+Size: 598168
+MD5sum: 6f7c9c333efe9b247ce79ff7f92c198e
+SHA1: ce1b2486420a4e2a6534cdccc3c8d4952ee4f37c
+SHA256: 68589d5d06cd436597221e64c7d325e216f6910746625ef9c3371828058b1f96
 Section: 微信插件
 Description: WCPulse
 Author: huami
@@ -1101,16 +1120,16 @@ Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.
 Name: WCPulse
 
 Package: com.wkk.WCRefine
-Version: 1.2-1
+Version: 1.2-2
 Architecture: iphoneos-arm64e
 Maintainer: 热心网友
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 14.0), mobilesubstrate
-Filename: ./debs/com.wkk.wcrefine_1.2-1_iphoneos-arm64e.deb
-Size: 3860712
-MD5sum: da5925e41eb65cd3e17c5582c184fdb5
-SHA1: 5edb82515d129ae346e1a1c92e830534bd6b1f51
-SHA256: 0732db821b47efdf53bb0728857c030b6083f4f3d87a776f393e1775eb48e2aa
+Filename: ./debs/com.wkk.wcrefine_1.2-2_iphoneos-arm64e.deb
+Size: 3851786
+MD5sum: 37c0d021150896640ce85fd1bea1cd8d
+SHA1: 92532e147fa16c8d46a608baa4a6b342974ac51a
+SHA256: 2669454988d71393f1368fe75411bd804d2e7e3765d41b7cb9b2dd0fc628a5cd
 Section: 微信插件
 Priority: optional
 Description: 微信优化的重制版本，WCRefine基于微信8.0.64+版本制作。
@@ -1255,6 +1274,23 @@ Size: 10535390
 MD5sum: c3b5ecc9e0ac205747a5103e793e05f3
 SHA1: 8019665cd80994e71eff7eb2dd886d0ff86b7c75
 SHA256: 12de435e72a9fc730f98f8f23824b00ba96f6a6723c525798989ce4214f001fe
+Section: Tweaks
+Description: 自用
+Author: 𝙓
+Name: 抖音图层
+
+Package: com.xx.dyhook
+Version: 2.3.5-7
+Architecture: iphoneos-arm64e
+Maintainer: 𝙓
+Installed-Size: 7416
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.dyhook_2.3.5-7_iphoneos-arm64e.deb
+Size: 6684568
+MD5sum: f263ef2b7a026ce728ab527dd0479cf6
+SHA1: 2631deeb68bf88999bfa382c0dbf26a8d50750b5
+SHA256: a7c06bb2b1f75393edf9f1132128d5d1843bd4eb92bd51986664569ef5aa8cec
 Section: Tweaks
 Description: 自用
 Author: 𝙓
