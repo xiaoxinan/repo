@@ -772,6 +772,24 @@ Description: An awesome MobileSubstrate tweak!
 Author: Shadow-
 Name: fuckthermal
 
+Package: com.shuffle
+Version: 1.6.2
+Architecture: iphoneos-arm64e
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 1484
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.creaturecoding.libcspreferences
+Filename: ./debs/com.shuffle_1.6.2_iphoneos-arm64e.deb
+Size: 329714
+MD5sum: 75936848708060edfb2d9b241178c534
+SHA1: a63de06eaba53fe4c2eb82be2b209f794bc40de0
+SHA256: fe7a9dce6d09e27c39cca7bd4e47a65c583c8e933eafdf5f96b11d9a0f7e0a69
+Section: 插件
+Description: 插件设置归类。
+Author: CreatureSurvive <support@creaturecoding.com>
+Icon: https://sini921.github.io/repo/sileodepiction/icon/shuffle.png
+Name: Shuffle
+
 Package: com.sini.dyyy
 Version: 2.2-9-build1612
 Architecture: iphoneos-arm64e
