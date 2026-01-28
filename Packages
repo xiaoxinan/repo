@@ -1296,6 +1296,23 @@ Description: 自用
 Author: 𝙓
 Name: 抖音图层
 
+Package: com.xx.dyhook
+Version: 2.3.5-8
+Architecture: iphoneos-arm64e
+Maintainer: 𝙓
+Installed-Size: 7468
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.dyhook_2.3.5-8_iphoneos-arm64e(1).deb
+Size: 6688824
+MD5sum: 85eca55765d8bc3f0f25a009f485f6de
+SHA1: 1dd98b7e470743550fc3496f42ea98fe26002d90
+SHA256: 98a9e12669d0d2db542e8a1bacbc849d1a976a6161d1ccca651e2043ca1e8e17
+Section: Tweaks
+Description: 自用
+Author: 𝙓
+Name: 抖音图层
+
 Package: com.xybp888.noapplemobilerepair
 Version: 0.0.1-103
 Architecture: iphoneos-arm64e
